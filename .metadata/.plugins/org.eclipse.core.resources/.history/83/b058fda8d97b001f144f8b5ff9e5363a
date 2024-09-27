@@ -1,0 +1,10 @@
+package com.ktdsuniversity.edu.hello_spring.bbs.dao.impl;
+
+import org.springframework.context.annotation.Import;
+
+@MybatisTest
+@AutoConfigureTestDatabase(replace = Replace.None)
+@Import(BoardDaoImpl.class)
+public class BoardDaoImplTest {
+
+}

@@ -1,0 +1,10 @@
+package com.ktdsuniversity.edu.hello_spring.bbs.dao.impl;
+
+import org.mybatis.spring.boot.test.autoconfigure.MybatisTest;
+import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
+
+@MybatisTest
+@AutoConfigureTestDatabase
+public class BoardDaoImplTest {
+
+}

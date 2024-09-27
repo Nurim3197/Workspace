@@ -1,0 +1,70 @@
+package com.ktdsuniversity.edu.hello_spring.bbs.service.impl;
+
+import org.junit.jupiter.api.Test;
+import org.mockito.BDDMockito;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.context.annotation.Import;
+
+import com.ktdsuniversity.edu.hello_spring.bbs.dao.BoardDao;
+import com.ktdsuniversity.edu.hello_spring.bbs.dao.impl.BoardDaoImpl;
+import com.ktdsuniversity.edu.hello_spring.bbs.service.BoardService;
+
+// Spring Application의 Bean을 생성해주는 Annotation
+@SpringBootTest
+// JUNITS를 사용하기 위한 설정
+//@ExtendWith(SpringExtension.class
+// Test하고자 하는 클래스와 Test에 필요한 클래스들을 Import
+// BoardServoceImpl.class : BoardServiceImpl 테스트 하기 위해 임포트
+// BoardDaoImpl.class : BoardServiceImpl에 BoardDaoImpl을 Autowired하기 위해 Import
+@Import( { BoardServiceImpl.class, BoardDaoImpl.class } )
+public class BoardServiceImplTest {
+	
+	@Autowired
+	private BoardService boardService;
+	
+	/**
+	 * JUnit5 테스트를 위해 BoardServiImpl에 가짜 인스턴스를 DI
+	 */
+	@MockBean
+	private BoardDao boardDao;
+	// BoardDao에 대한 가짜 인스턴스를 만든다.
+	// 이름만 존재하는 빈껍데기라고 생각하면 좋다.
+	
+	@Test
+	public void testGetAllBoard() {
+		
+		// 1. boardDao.selectBoardAllCount()가 반환시킬 값을 명시.
+		BDDMockito.given();
+		
+		// 2. boardDao.selectAllBoard()가 반환시킬 값을 명시
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+}

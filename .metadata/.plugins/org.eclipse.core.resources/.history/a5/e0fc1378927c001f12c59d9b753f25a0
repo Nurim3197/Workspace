@@ -1,0 +1,9 @@
+package com.ktdsuniversity.edu.hello_spring.bbs.dao.impl;
+
+
+@MybatisTest
+@AutoConfigureTestDatabase(replace = Replace.NONE)
+public class BoardDaoImplTest {
+	
+
+}

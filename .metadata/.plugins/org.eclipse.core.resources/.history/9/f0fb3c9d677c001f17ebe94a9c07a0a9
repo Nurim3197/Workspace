@@ -1,0 +1,31 @@
+package com.ktdsuniversity.edu.hello_spring.bbs.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.context.annotation.Import;
+
+import com.ktdsuniversity.edu.hello_spring.bbs.dao.impl.BoardDaoImpl;
+import com.ktdsuniversity.edu.hello_spring.bbs.service.BoardService;
+
+// Spring Application의 Bean을 생성해주는 Annotation
+@SpringBootTest
+// JUNITS를 사용하기 위한 설정
+//@ExtendWith(SpringExtension.class
+// Test하고자 하는 클래스와 Test에 필요한 클래스들을 Import
+// BoardServoceImpl.class : BoardServiceImpl 테스트 하기 위해 임포트
+// BoardDaoImpl.class : BoardServiceImpl에 BoardDaoImpl을 Autowired하기 위해 Import
+@Import( { BoardServiceImpl.class, BoardDaoImpl.class } )
+public class BoardServiceImplTest {
+	
+	@Autowired
+	private BoardService boardService;
+	
+	
+}
+
+
+
+
+
+
+

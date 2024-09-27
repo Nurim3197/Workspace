@@ -1,0 +1,9 @@
+package com.ktdsuniversity.edu.hello_spring.bbs.service.impl;
+
+@SpringBootTest
+@Import({BoardServiceImpl.class, BoardDaoImpl.class})
+public class BoardServiceImplTest {
+
+public c
+
+}

@@ -1,0 +1,13 @@
+package com.ktdsuniversity.edu.hello_spring.bbs.service.impl;
+
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.context.annotation.Import;
+
+// Spring Application의 Bean을 생성해주는 Annotation
+@SpringBootTest
+// JUNITS를 사용하기 위한 설정
+//@ExtendWith(SpringExtension.class
+@Import(BoardServiceImpl.class)
+public class BoardServiceImplTest {
+
+}
