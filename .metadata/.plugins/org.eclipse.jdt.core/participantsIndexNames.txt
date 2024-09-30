@@ -25,6 +25,8 @@ C:\Devs\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\36212656
 \test\src\main\java
 C:\Devs\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3774840422.index
 \hello-spring_chapter_06\src\main\java
+C:\Devs\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4260334642.index
+\homework\src\main\java
 C:\Devs\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3691904010.index
 \hello-spring_chapter_03\src\main\java
 C:\Devs\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1840556087.index

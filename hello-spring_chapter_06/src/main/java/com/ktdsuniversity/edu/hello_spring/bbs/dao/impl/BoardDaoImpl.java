@@ -9,6 +9,7 @@ import org.springframework.stereotype.Repository;
 
 import com.ktdsuniversity.edu.hello_spring.bbs.dao.BoardDao;
 import com.ktdsuniversity.edu.hello_spring.bbs.vo.BoardVO;
+import com.ktdsuniversity.edu.hello_spring.bbs.vo.ModifyBoardVO;
 import com.ktdsuniversity.edu.hello_spring.bbs.vo.WriteBoardVO;
 
 @Repository
@@ -40,12 +41,24 @@ public class BoardDaoImpl extends SqlSessionDaoSupport implements BoardDao {
 	
 	@Override
 	public BoardVO selectOneBoard(int id) {
-		return this.getSqlSession().selectOne("homework.bbs.dao.BoardDao.selectOneBoard", id);
+		return this.getSqlSession().selectOne("com.ktdsuniversity.edu.hello_spring.bbs.dao.BoardDao.selectOneBoard", id);
 	}
 	
 	@Override
 	public int addViewCnt(int id) {
-		return this.getSqlSession().update("homework.bbs.dao.BoardDao.addViewCnt", id);
+		return this.getSqlSession().update("com.ktdsuniversity.edu.hello_spring.bbs.dao.BoardDao.addViewCnt", id);
 	}
+		
+	@Override
+	public int updateOneBoard(ModifyBoardVO modifyBoardVO) {
+		return this.getSqlSession().update("com.ktdsuniversity.edu.hello_spring.bbs.dao.BoardDao.updateOneBoard", modifyBoardVO);
+	}
+	
+	@Override
+	public int deleteOneBoard(int id) {
+		return this.getSqlSession().delete("com.ktdsuniversity.edu.hello_spring.bbs.dao.BoardDao.deleteOneBoard", id);
+	}
+	
+	
 	
 }

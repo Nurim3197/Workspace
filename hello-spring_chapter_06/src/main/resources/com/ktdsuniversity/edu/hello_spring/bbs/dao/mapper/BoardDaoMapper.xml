@@ -45,7 +45,7 @@
 	, NULL)
 	</insert>
 	
-	<select id="selectOneBoard" resultType="homework.bbs.vo.BoardVO">
+	<select id="selectOneBoard" parameterType="_int" resultType="com.ktdsuniversity.edu.hello_spring.bbs.vo.BoardVO">
 	SELECT ID
 	     , SUBJECT 
 	     , CONTENT 
@@ -56,12 +56,45 @@
 	     , FILE_NAME 
 	     , ORIGIN_FILE_NAME
       FROM BOARD
-     WHERE ID = #{id}
+     WHERE ID = #{_parameter}
 	</select>
 	
-	<update id="selectOneBoard" parameterType="_int">
+	<update id="addViewCnt" parameterType="_int">
 	UPDATE BOARD
 	   SET VIEW_CNT = VIEW_CNT + 1
+	 WHERE ID = #{_parameter}
+	</update>
+	
+	<update id="updateOneBoard" parameterType="com.ktdsuniversity.edu.hello_spring.bbs.vo.BoardVO">
+	UPDATE BOARD
+	   SET SUBJECT = #{subject}
+	     , CONTENT = #{content}
+	     , EMAIL = #{email}
 	 WHERE ID = #{id}
 	</update>
+	
+	<delete id="deleteOneBoard" parameterType="_int">
+	DELETE
+	  FROM BOARD
+	 WHERE ID = #{_parameter}
+	</delete>
 </mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

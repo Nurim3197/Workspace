@@ -9,6 +9,7 @@ import com.ktdsuniversity.edu.hello_spring.bbs.dao.BoardDao;
 import com.ktdsuniversity.edu.hello_spring.bbs.service.BoardService;
 import com.ktdsuniversity.edu.hello_spring.bbs.vo.BoardListVO;
 import com.ktdsuniversity.edu.hello_spring.bbs.vo.BoardVO;
+import com.ktdsuniversity.edu.hello_spring.bbs.vo.ModifyBoardVO;
 import com.ktdsuniversity.edu.hello_spring.bbs.vo.WriteBoardVO;
 
 @Service
@@ -41,7 +42,7 @@ public class BoardServiceImpl implements BoardService {
 	@Override
 	public boolean createNewBoard(WriteBoardVO writeBoardVO) {
 		int result = this.boardDao.insertNewBoard(writeBoardVO);
-		return result == 1;
+		return result > 1;
 	}
 	
 	@Override
@@ -62,4 +63,22 @@ public class BoardServiceImpl implements BoardService {
 		return result == 1;
 	}
 	*/
+	
+	@Override
+	public boolean updateOneBoard(ModifyBoardVO modifyBoardVO) {
+		int result = this.boardDao.updateOneBoard(modifyBoardVO);
+		return result > 0;
+	}
+	
+	@Override
+	public boolean deleteOneBoard(int id) {
+		int result = this.boardDao.deleteOneBoard(id);
+		return result > 0;
+	}
 }
+
+
+
+
+
+

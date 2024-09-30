@@ -8,10 +8,10 @@ spring:
     username: SPRING_BOOT
     password: 1234
 
-    mvc:
-      view:
-        prefix: /WEB-INF/views/
-        suffix: .jsp
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
 
 # mybatis 설정 파일의 경로 지정
 myBatis:

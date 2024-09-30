@@ -12,7 +12,7 @@
 	<form method="post">
 		<div class="grid">
 			<label for="subject">제목</label>
-			<input id="subject" type="text" name="sebject" />
+			<input id="subject" type="text" name="subject" />
 
 			<label for="email">이메일</label>
 			<input id="email" type="text" name="email" />

@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import homework.bbs.service.BoardService;
 import homework.bbs.vo.BoardListVO;
@@ -46,12 +47,12 @@ public class BoardController {
 	// addObject("boardVO", board)로 객체 바인딩?해주면 되는 것으로 보임
 	
 	// 근데 REqusetParam은 그렇다고 치고, modelView대신 Model model을 파라미터로 받아와서 addAttribute하면 안되나?
-	public String viewOneBoard(Model model) {
-		BoardVO board = this.boardService.getOneBoard(3);
+	public String viewOneBoard(@RequestParam int id, Model model) {
+		BoardVO board = this.boardService.getOneBoard(id);
 		if(board == null) {
-			return "/board/notfound";
+			return "board/notfound";
 		}
 		model.addAttribute("boardVO", board);
-		return "/board/viewone";
+		return "board/viewone";
 	}
 }

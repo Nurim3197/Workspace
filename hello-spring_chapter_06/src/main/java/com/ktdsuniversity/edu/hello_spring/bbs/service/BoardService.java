@@ -2,6 +2,7 @@ package com.ktdsuniversity.edu.hello_spring.bbs.service;
 
 import com.ktdsuniversity.edu.hello_spring.bbs.vo.BoardListVO;
 import com.ktdsuniversity.edu.hello_spring.bbs.vo.BoardVO;
+import com.ktdsuniversity.edu.hello_spring.bbs.vo.ModifyBoardVO;
 import com.ktdsuniversity.edu.hello_spring.bbs.vo.WriteBoardVO;
 
 public interface BoardService {
@@ -13,4 +14,8 @@ public interface BoardService {
 	public BoardVO getOneBoard(int id);
 	
 //	public boolean addViewCnt(int id);
+	
+	public boolean updateOneBoard(ModifyBoardVO modifyBoardVO);
+	
+	public boolean deleteOneBoard(int id);
 }
