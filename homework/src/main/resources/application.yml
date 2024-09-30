@@ -1,4 +1,7 @@
 spring:
+  application:
+    name: hello-spring
+
   datasource:
     url: jdbc:oracle:thin:@localhost:1521:XE
     driver-class-name: oracle.jdbc.driver.OracleDriver
@@ -9,3 +12,9 @@ spring:
       view:
         prefix: /WEB-INF/views/
         suffix: .jsp
+
+# mybatis 설정 파일의 경로 지정
+myBatis:
+  # mybatis-config.xml 파일의 위치를 지정.
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:homework/**/dao/mapper/*Mapper.xml

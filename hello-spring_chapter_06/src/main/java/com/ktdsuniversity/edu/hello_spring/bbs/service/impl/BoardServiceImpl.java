@@ -42,5 +42,24 @@ public class BoardServiceImpl implements BoardService {
 	public boolean createNewBoard(WriteBoardVO writeBoardVO) {
 		int result = this.boardDao.insertNewBoard(writeBoardVO);
 		return result == 1;
-	} 
+	}
+	
+	@Override
+	public BoardVO getOneBoard(int id) {
+		boolean isUpdate = this.boardDao.addViewCnt(id) > 0;
+		if(!isUpdate) {
+			System.out.println("id : " + id + "는 존재하지 않습니다.");
+			return null;
+		}
+		BoardVO board = this.boardDao.selectOneBoard(id);
+		return board;
+	}
+	
+	/*
+	@Override
+	public boolean addViewCnt(int id) {
+		int result = this.boardDao.addViewCnt(id);
+		return result == 1;
+	}
+	*/
 }

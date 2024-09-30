@@ -44,4 +44,24 @@
 	, NULL
 	, NULL)
 	</insert>
+	
+	<select id="selectOneBoard" resultType="homework.bbs.vo.BoardVO">
+	SELECT ID
+	     , SUBJECT 
+	     , CONTENT 
+	     , EMAIL
+	     , VIEW_CNT 
+	     , TO_CHAR(CRT_DT, 'YYYY-MM-DD') CRT_DT
+	     , TO_CHAR(MDFY_DT , 'YYYY-MM-DD') MDFY_DT 
+	     , FILE_NAME 
+	     , ORIGIN_FILE_NAME
+      FROM BOARD
+     WHERE ID = #{id}
+	</select>
+	
+	<update id="selectOneBoard" parameterType="_int">
+	UPDATE BOARD
+	   SET VIEW_CNT = VIEW_CNT + 1
+	 WHERE ID = #{id}
+	</update>
 </mapper>

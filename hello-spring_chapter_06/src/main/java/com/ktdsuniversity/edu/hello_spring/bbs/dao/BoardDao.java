@@ -13,4 +13,8 @@ public interface BoardDao {
 	
 	public int insertNewBoard(WriteBoardVO writeBoardVO);
 	
+	public BoardVO selectOneBoard(int id);
+	
+	public int addViewCnt(int id);
+	
 }
