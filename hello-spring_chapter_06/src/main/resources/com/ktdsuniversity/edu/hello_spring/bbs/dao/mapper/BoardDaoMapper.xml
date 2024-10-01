@@ -41,8 +41,8 @@
 	, 0
 	, SYSDATE
 	, SYSDATE
-	, NULL
-	, NULL)
+	, #{fileName}
+	, #{originFileName})
 	</insert>
 	
 	<select id="selectOneBoard" parameterType="_int" resultType="com.ktdsuniversity.edu.hello_spring.bbs.vo.BoardVO">
@@ -70,6 +70,11 @@
 	   SET SUBJECT = #{subject}
 	     , CONTENT = #{content}
 	     , EMAIL = #{email}
+	     , MDFY_DT = SYSDATE
+	     <if test='fileName != null and fileName != ""'>
+	     , FILENAME = #{fileName}
+	     , ORIGIN_FILE_NAME = #{originFileName}
+	     </if>
 	 WHERE ID = #{id}
 	</update>
 	

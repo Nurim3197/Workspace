@@ -1,11 +1,36 @@
 package com.ktdsuniversity.edu.hello_spring.bbs.vo;
 
+import org.springframework.web.multipart.MultipartFile;
+
 public class ModifyBoardVO {
 	private int id;
 	private String subject;
 	private String content;
 	private String email;
 	
+	private String fileName;
+	private String originFileName;
+	
+	private MultipartFile file;
+	
+	public String getFileName() {
+		return fileName;
+	}
+	public void setFileName(String fileName) {
+		this.fileName = fileName;
+	}
+	public String getOriginFileName() {
+		return originFileName;
+	}
+	public void setOriginFileName(String originFileName) {
+		this.originFileName = originFileName;
+	}
+	public MultipartFile getFile() {
+		return file;
+	}
+	public void setFile(MultipartFile file) {
+		this.file = file;
+	}
 	public int getId() {
 		return id;
 	}

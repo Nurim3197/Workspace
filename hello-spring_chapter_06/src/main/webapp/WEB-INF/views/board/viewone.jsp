@@ -19,6 +19,13 @@ pageEncoding="UTF-8"%>
       <label for="viewCnt">조회수</label>
       <div>${boardVO.viewCnt}</div>
 
+      <label for="originFileName">첨부파일</label>
+      <div>
+        <a href="/board/file/download/${boardVO.id}">
+          ${boardVO.originFileName}
+        </a>
+      </div>
+
       <label for="crtDt">등록일</label>
       <div>${boardVO.crtDt}</div>
 
@@ -29,7 +36,7 @@ pageEncoding="UTF-8"%>
       <div>${boardVO.content}</div>
       <div class="btn-group">
         <div class="right-align">
-          <a href="/board/modify/${boardVO.id}">수정</a>
+          <a href="/board/modifyboard/${boardVO.id}">수정</a>
           <a href="/board/delete/${boardVO.id}">삭제</a>
         </div>
       </div>

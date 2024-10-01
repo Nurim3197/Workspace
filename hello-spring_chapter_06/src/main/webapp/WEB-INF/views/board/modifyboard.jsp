@@ -5,11 +5,15 @@ pageEncoding="UTF-8"%>
   <head>
     <meta charset="UTF-8" />
     <title>게시글 수정</title>
-	<link rel="stylesheet" type="text/css" href="/css/modify.css" />
+    <link rel="stylesheet" type="text/css" href="/css/modify.css" />
   </head>
   <body>
     <h1>게시글 수정</h1>
-    <form method="post">
+    <form
+      method="post"
+      enctype="multipart/form-data"
+      action="board/modifyboard/${boardVO.id}"
+    >
       <div class="grid">
         <label for="subject">제목</label>
         <input

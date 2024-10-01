@@ -11,7 +11,7 @@ public interface BoardService {
 	
 	public boolean createNewBoard(WriteBoardVO writeBoardVO);
 	
-	public BoardVO getOneBoard(int id);
+	public BoardVO getOneBoard(int id, boolean isAdd);
 	
 //	public boolean addViewCnt(int id);
 	
