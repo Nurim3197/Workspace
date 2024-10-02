@@ -14,5 +14,10 @@
 	     , #{password})
 	</insert>
 	
+	<select id="selectEmailCount" resultType="int" parameterType="String">
+	SELECT COUNT(1)
+	  FROM MEMBERS
+	 WHERE EMAIL = #{email}
+	</select>
 
 </mapper>

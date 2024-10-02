@@ -10,7 +10,6 @@
     <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.AutoConfigureOrder"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase"/>
-    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.params.shadow.com.univocity.parsers.annotations.Replace"/>
     <fullyQualifiedTypeName name="org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase.Replace"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
@@ -27,4 +26,15 @@
     <fullyQualifiedTypeName name="org.springframework.core.io.Resource"/>
     <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.common.beans.FileHandler"/>
     <fullyQualifiedTypeName name="org.springframework.web.multipart.MultipartFile"/>
+    <fullyQualifiedTypeName name="jakarta.validation.constraints.Size"/>
+    <fullyQualifiedTypeName name="org.springframework.validation.BindingResult"/>
+    <fullyQualifiedTypeName name="ch.qos.logback.core.recovery.ResilientSyslogOutputStream"/>
+    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ModelAttribute"/>
+    <fullyQualifiedTypeName name="org.mybatis.spring.support.SqlSessionDaoSupport"/>
+    <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.member.dao.MemberDao"/>
+    <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.member.vo.RegistMemberVO"/>
+    <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.member.service.MemberService"/>
+    <fullyQualifiedTypeName name="jakarta.validation.constraints.NotBlank"/>
+    <fullyQualifiedTypeName name="jakarta.validation.constraints.Email"/>
 </qualifiedTypeNameHistroy>

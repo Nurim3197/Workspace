@@ -29,22 +29,27 @@ public class MemberController {
 	
 	@PostMapping("/member/regist")
 	public String doRegistMember(@Valid RegistMemberVO registMemberVO, BindingResult bindingResult, Model model) {
-		
+		if(bindingResult.hasErrors()) {
+			model.addAttribute("RegistMemberVO", registMemberVO);
+			return "member/regist";
+		}
 		model.addAttribute("RegistMemberVO", registMemberVO);
 		this.memberService.registNewMember(registMemberVO);
-		return "member/regist";
+		return "redirect:/member/regist";
 	}
+	
 	
 	@ResponseBody
 	@GetMapping("/member/regist/available")
 	public Map<String, Object> doCheckAvailableEmail(@RequestParam String email) {
-		
 		boolean isAvailableEmail = this.memberService.checkAvailableEmail(email);
-		
 		Map<String, Object> response = new HashMap<String, Object>();
-		response.put("email", response);
-		response.put("available", isAvailableEmail);
-		return response;
+		if(isAvailableEmail) {
+			response.put("email", email);
+			response.put("available", isAvailableEmail);
+			return response;
+		}
+		return null;
 	}
 	
 	

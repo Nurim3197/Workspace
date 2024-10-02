@@ -6,20 +6,21 @@ $().ready(function () {
       function (availableResponse) {
         var email = availableResponse.email;
         var available = availableResponse.available;
+        console.log("1");
+        console.log(email);
+        console.log(available);
+
         if (available) {
           //사용할 수 있는 이메일이라면?
           $("#email").addClass("available");
           $("#email").removeClass("unusable");
-          $("input[type=submit]").removeattr("disabled");
+          $("input[type=submit]").removeAttr("disabled");
         } else {
           //사용할 수 없는 이메일이라면?
           $("#email").addClass("unusable");
           $("#email").removeClass("available");
           $("input[type=submit]").attr("disabled", "disabled");
         }
-
-        console.log(email);
-        console.log(available);
       }
     );
   });
