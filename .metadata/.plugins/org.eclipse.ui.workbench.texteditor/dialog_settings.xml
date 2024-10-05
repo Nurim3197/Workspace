@@ -3,6 +3,7 @@
 	<item key="hasShownOverlayPopupBefore" value="true"/>
 	<item key="replaceBarOpen" value="false"/>
 	<list key="searchhistory">
+		<item value="servlet"/>
 		<item value="viewone"/>
 		<item value="&quot;Path wit"/>
 		<item value="&quot;Path with &quot;WEB-INF&quot; or &quot;META-INF&quot;:"/>

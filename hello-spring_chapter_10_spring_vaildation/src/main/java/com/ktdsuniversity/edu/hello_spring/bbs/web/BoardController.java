@@ -54,7 +54,6 @@ public class BoardController {
 		if(bindingResult.hasErrors()) {
 			model.addAttribute("writeBoardVO", writeBoardVO);
 			return "board/boardwrite";
-
 		}
 			
 		

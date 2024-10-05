@@ -11,5 +11,18 @@
             <entry path="null"/>
         </endorsedDirs>
     </libraryInfo>
+    <libraryInfo home="D:\Devs\spring-tool-suite-4-4.25.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.25.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre" version="21.0.4"/>
+    <libraryInfo home="D:\Devs\spring-tool-suite-4-4.25.0.RELEASE-e4.33.0-win32.win32.x86_64\sts-4.25.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551" version="21.0.4">
+        <bootpath>
+            <entry path="null"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="null"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="null"/>
+        </endorsedDirs>
+    </libraryInfo>
+    <libraryInfo home="D:\dev_program\jdk-22.0.2" version="22.0.2"/>
     <libraryInfo home="C:\dev_programs\jdk-22.0.1" version="22.0.1"/>
 </libraryInfos>
