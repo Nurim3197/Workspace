@@ -37,4 +37,16 @@ public class TodoServiceImpl implements TodoService {
 		return createCount > 0;
 	}
 	
+	@Override
+	public Boolean deleteOneTodo(int id) {
+		int deleteCount = this.todoDao.deleteOneTodo(id);
+		return deleteCount > 0;
+	}
+	
+	@Override
+	public Boolean switchComplete(int id) {
+		int updateCount = this.todoDao.switchComplete(id);
+		return updateCount > 0;
+	}
+	
 }

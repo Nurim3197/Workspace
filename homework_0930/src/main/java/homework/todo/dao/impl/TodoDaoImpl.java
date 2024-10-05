@@ -36,4 +36,14 @@ public class TodoDaoImpl extends SqlSessionDaoSupport implements TodoDao {
 		return this.getSqlSession().insert("homework.todo.dao.TodoDao.insertNewTodo", writeTodoVO);
 	}
 	
+	@Override
+	public int deleteOneTodo(int id) {
+		return this.getSqlSession().delete("homework.todo.dao.TodoDao.deleteOneTodo" ,id);
+	}
+	
+	@Override
+	public int switchComplete(int id) {
+		return this.getSqlSession().update("homework.todo.dao.TodoDao.switchComplete", id);
+	}
+	
 }

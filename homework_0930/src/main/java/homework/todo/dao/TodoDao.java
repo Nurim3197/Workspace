@@ -13,6 +13,7 @@ public interface TodoDao {
 	
 	public int insertNewTodo(WriteTodoVO writeTodoVO);
 	
+	public int deleteOneTodo(int id);
 	
-	
+	public int switchComplete(int id);
 }

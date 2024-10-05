@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import homework.todo.service.TodoService;
@@ -43,4 +44,24 @@ public class TodoController {
 		boolean isCreate = this.todoService.createNewTodo(writeTodoVO);
 		return "redirect:/todo/list";
 	}
+	
+	@GetMapping("/todo/delete/{id}")
+	public String deleteOneTodo(@PathVariable int id) {
+		boolean isDelete = this.todoService.deleteOneTodo(id);
+		
+		if(!isDelete) {
+			System.out.println("삭제에 실패했습니다. 삭제 목표 ID : " + id );
+		}
+		return "redirect:/todo/list";
+	}
+	
+	@GetMapping("todo/complete/{id}")
+	public String switchComplete(@PathVariable int id) {
+		boolean isUpdate = this.todoService.switchComplete(id);
+		if (!isUpdate) {
+			System.out.println("완료처리에 실패했습니다. 목표 ID : " + id);
+		}
+		return "redirect:/todo/list";
+	}
+	
 }

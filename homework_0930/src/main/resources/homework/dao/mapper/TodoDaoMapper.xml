@@ -30,4 +30,17 @@
        , SYSDATE)
   </insert>
   
+  <delete id="deleteOneTodo" parameterType="_int">
+  DELETE 
+    FROM TODO
+   WHERE TD_ID = #{_parameter}
+  </delete>
+  
+  <update id="switchComplete" parameterType="_int">
+  UPDATE TODO
+     SET TD_CMPLT = 'Y'
+   WHERE TD_ID = #{_parameter}
+  </update>
+  
+  
 </mapper>

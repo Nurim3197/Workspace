@@ -9,4 +9,7 @@ public interface TodoService {
 	
 	public Boolean createNewTodo(WriteTodoVO writeTodoVO);
 	
+	public Boolean deleteOneTodo(int id);
+	
+	public Boolean switchComplete(int id);
 }
