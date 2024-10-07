@@ -1,19 +1,9 @@
 INDEX VERSION 1.134
-D:\Devs\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\433536990.index
-\hello-spring_chapter_10_spring_vaildation\src\main\java
-D:\Devs\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\243214886.index
-\homework_0930\src\main\java
-D:\Devs\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\145181878.index
-\homework_0930\src\main\resources
-D:\Devs\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2578140626.index
+C:\Devs\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2578140626.index
 \hello-spring_chapter_09_spring_vaildation\src\main\java
-D:\Devs\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1834054612.index
+C:\Devs\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\433536990.index
 \hello-spring_chapter_10_spring_vaildation\src\main\java
-D:\Devs\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\438331319.index
-\homework_0930\src\main\resources
-D:\Devs\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2190855550.index
+C:\Devs\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1834054612.index
+\hello-spring_chapter_10_spring_vaildation\src\main\java
+C:\Devs\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2190855550.index
 \homework_0930\src\main\java
-D:\Devs\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3191535795.index
-\homework_0930\src\main\java
-D:\Devs\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3304724287.index
-\hello-spring_chapter_09_code_validation\src\main\java

@@ -25,7 +25,7 @@ pageEncoding="UTF-8"%>
               </td>
             </tr>
             <tr>
-              <td class="deadline"><label for="deadLine">이메일</label></td>
+              <td class="deadline"><label for="deadLine">기한</label></td>
               <td>
                 <input
                   id="deadLine"

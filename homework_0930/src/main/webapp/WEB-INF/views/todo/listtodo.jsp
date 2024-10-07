@@ -37,7 +37,7 @@ pageEncoding="UTF-8"%> <%@ taglib prefix="c" uri="jakarta.tags.core" %>
                           <td></td>
                         </c:otherwise>
                       </c:choose>
-                      <td>${todo.tdCntnt}</td>
+                      <td class="right">${todo.tdCntnt}</td>
                       <td>${todo.tdDdDt}</td>
                       <c:choose>
                         <c:when test="${todo.tdCmplt eq 'N'}">
