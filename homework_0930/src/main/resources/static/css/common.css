@@ -28,10 +28,6 @@ div.header {
   padding-top: 10px;
 }
 
-.text-right{
-	text-align: right;
-}
-
 table {
   border-collapse: collapse;
   text-align: center;
@@ -70,6 +66,15 @@ a {
   color: #333;
   text-decoration: none;
 }
+
+ul.horizontal-list{
+	padding: 0px;
+	margin: 0px;
+}
+ul.horizontal-list li {
+	display: inline;
+}
+
 
 input[type="button"] {
   font-size: 1.2rem;

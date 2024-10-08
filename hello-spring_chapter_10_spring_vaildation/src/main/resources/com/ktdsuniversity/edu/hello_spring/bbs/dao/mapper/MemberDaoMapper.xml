@@ -8,13 +8,15 @@
 	INSERT INTO MEMBERS
 	(      NAME
 	     , EMAIL
-	     , PASSWORD)
+	     , PASSWORD
+	     , SALT)
 	VALUES (#{name}
 	     , #{email}
-	     , #{password})
+	     , #{password}
+	     , #{salt})
 	</insert>
 	
-	<select id="selectEmailCount" resultType="int" parameterType="String">
+	<select id="selectEmailCount" resultType="_int" parameterType="String">
 	SELECT COUNT(1)
 	  FROM MEMBERS
 	 WHERE EMAIL = #{email}

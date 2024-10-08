@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ktdsuniversity.edu.hello_spring.member.dao.MemberDao">
+
+	<insert id="insertNewMember" parameterType="com.ktdsuniversity.edu.hello_spring.member.vo.UserVO">
+	INSERT INTO MEMBERS
+	(      NAME
+	     , EMAIL
+	     , PASSWORD
+	     , SALT
+	     , LOGIN_FAIL_COUNT)
+	VALUES (#{name}
+	     , #{email}
+	     , #{password}
+	     , #{salt})
+	</insert>
+	
+	<select id="selectEmailCount" parameterType= "string" resultType="_int">
+	SELECT COUNT(1)
+	  FROM MEMBERS
+	 WHERE EMAIL = #{email}
+	</select>
+	
+	<select id="selectSalt" parameterType="String" resultType="String">
+	SELECT SALT
+	  FROM MEMBERS
+	 WHERE EMAIL = #{_parameter}
+	</select>
+	
+	<select id="selectOneMember"
+	parameterType="com.ktdsuniversity.edu.hello_spring.member.vo.LoginMemberVO"
+	resultType="com.ktdsuniversity.edu.hello_spring.member.vo.UserVO">
+	SELECT EMAIL
+		 , NAME
+		 , PASSWORD
+		 , SALT
+		 , LOGIN_FAIL_COUNT
+		 , TO_CHAR(LATEST_LOGIN_FAIL_DATE, 'YYYY-MM-DD') LATEST_LOGIN_FAIL_DATE 
+		 , LATEST_LOGIN_IP
+		 , TO_CHAR(LATEST_LOGIN_SUCCESS_DATE, 'YYYY-MM-DD') LATEST_LOGIN_SUCCESS_DATE
+	  FROM MEMBERS
+	 WHERE EMAIL = #{email}
+	   AND PASSWORD = #{password}
+	</select>
+	
+	<update id="updateLoginFailState" parameterType="com.ktdsuniversity.edu.hello_spring.member.vo.LoginMemberVO">
+	UPDATE MEMBERS 
+	   SET LOGIN_FAIL_COUNT = LOGIN_FAIL_COUNT + 1
+	     , LATEST_LOGIN_FAIL_DATE = SYSDATE 
+	     , LATEST_LOGIN_IP = #{ip}
+	 WHERE EMAIL = #{email}
+	</update>
+	
+	<select id="selectLoginImpossibleCount" parameterType="string" resultType="_int">
+	SELECT COUNT(1)
+	  FROM MEMBERS
+	 WHERE EMAIL = #{email}
+	   AND LOGIN_FAIL_COUNT >= 5
+	   AND LATEST_LOGIN_FAIL_DATE BETWEEN SYSDATE - 1/24 AND SYSDATE
+	</select>
+	
+	<update id="updateLoginSuccessState" parameterType="com.ktdsuniversity.edu.hello_spring.member.vo.LoginMemberVO">
+	UPDATE MEMBERS 
+	   SET LOGIN_FAIL_COUNT = 0
+	     , LATEST_LOGIN_FAIL_DATE = NULL 
+	     , LATEST_LOGIN_IP = #{ip}
+	     , LATEST_LOGIN_SUCCESS_DATE = SYSDATE
+	 WHERE EMAIL = #{email}	 
+	</update>
+	
+	
+</mapper>

@@ -8,6 +8,31 @@ pageEncoding="UTF-8"%> <%@ taglib prefix="c" uri="jakarta.tags.core" %>
     <link rel="stylesheet" type="text/css" href="/css/common.css" />
   </head>
   <body>
+  <div class="right-align">
+  	<ul class="horizontal-list">
+  		<c:choose>
+  			<c:when test="${empty sessionScope._LOGIN_USER_}">
+  				<li>
+  					<input type="button"
+  					 value="회원가입"
+  					 onclick="window.location.href ='/member/regist';" />
+  				</li>
+  				<li>
+  					<input type="button"
+  					 value="로그인"
+  					 onclick="window.location.href ='/member/login';" />
+  				</li>
+  			</c:when>
+  			<c:otherwise>
+  				<li>
+  					<input type="button"
+  					 value="로그아웃"
+  					 onclick="window.location.href ='/member/logout';" />
+  				</li>
+  			</c:otherwise>
+  		</c:choose>
+  	</ul>
+  </div>
     <div class="container">
       <div>총 ${todoListVO.todoCnt}건의 게시글이 검색되었습니다.</div>
       <div class="header">
@@ -37,7 +62,7 @@ pageEncoding="UTF-8"%> <%@ taglib prefix="c" uri="jakarta.tags.core" %>
                           <td></td>
                         </c:otherwise>
                       </c:choose>
-                      <td class="right">${todo.tdCntnt}</td>
+                      <td>${todo.tdCntnt}</td>
                       <td>${todo.tdDdDt}</td>
                       <c:choose>
                         <c:when test="${todo.tdCmplt eq 'N'}">

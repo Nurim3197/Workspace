@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<item key="hasShownOverlayPopupBefore" value="true"/>
-	<item key="replaceBarOpen" value="false"/>
+	<item key="replaceBarOpen" value="true"/>
 	<list key="searchhistory">
+		<item value=" ;"/>
+		<item value="_t"/>
+		<item value="_i"/>
+		<item value="_l"/>
+		<item value="_d"/>
+		<item value="_c"/>
+		<item value="_f"/>
+		<item value="&quot;com.ktdsuniversity.edu.hello_spring.member.dao.MemberDao"/>
 		<item value="servlet"/>
 		<item value="viewone"/>
 		<item value="&quot;Path wit"/>
@@ -10,7 +18,18 @@
 		<item value="dispatch for"/>
 		<item value="&quot;FORWARD&quot; dispatch for"/>
 		<item value="&quot;FORWARD&quot; dispatch for GET"/>
-		<item value="suffix "/>
+	</list>
+	<list key="replacehistory">
+		<item value=";"/>
+		<item value="t"/>
+		<item value="I"/>
+		<item value="L"/>
+		<item value="i"/>
+		<item value="d"/>
+		<item value="l"/>
+		<item value="c"/>
+		<item value="f"/>
+		<item value="NAMESPACE + &quot;"/>
 	</list>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item key="selection" value=""/>
@@ -20,6 +39,7 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="이거"/>
 			<item value="Autowiring sqlSessionTemplate:"/>
 			<item value="suffix"/>
 			<item value="InternalResourceViewResolver"/>
