@@ -86,9 +86,11 @@
 				
 			</tbody>
 		</table>
-		<div class="right-align">
-			<a href="/board/write">게시글 등록</a>		
-		</div>
+		<c:if test="${not empty sessionScope._LOGIN_USER_}">
+			<div class="right-align">
+				<a href="/board/write">게시글 등록</a>		
+			</div>
+		</c:if>			
 	</div>
 </body>
 </html>
