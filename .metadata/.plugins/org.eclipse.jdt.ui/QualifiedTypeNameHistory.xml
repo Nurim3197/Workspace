@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.bbs.vo.BoardListVO"/>
-    <fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
-    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.AutoConfigureOrder"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
-    <fullyQualifiedTypeName name="org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase"/>
-    <fullyQualifiedTypeName name="org.junit.jupiter.params.shadow.com.univocity.parsers.annotations.Replace"/>
-    <fullyQualifiedTypeName name="org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase.Replace"/>
-    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
-    <fullyQualifiedTypeName name="org.mockito.BDDMockito"/>
-    <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.bbs.vo.WriteBoardVO"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
-    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
-    <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="org.springframework.http.HttpHeaders"/>
     <fullyQualifiedTypeName name="org.springframework.http.MediaType"/>
     <fullyQualifiedTypeName name="org.apache.catalina.Store"/>
@@ -36,7 +22,6 @@
     <fullyQualifiedTypeName name="org.apache.catalina.User"/>
     <fullyQualifiedTypeName name="homework.member.dao.MemberDao"/>
     <fullyQualifiedTypeName name="homework.member.service.MemberService"/>
-    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
     <fullyQualifiedTypeName name="org.springframework.validation.BindingResult"/>
     <fullyQualifiedTypeName name="org.apache.tomcat.util.http.fileupload.RequestContext"/>
     <fullyQualifiedTypeName name="jakarta.servlet.http.HttpServletRequest"/>
@@ -49,7 +34,6 @@
     <fullyQualifiedTypeName name="javax.accessibility.Accessible"/>
     <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.access.vo.AccessLogVO"/>
     <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.common.utils.RequestUtil"/>
-    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
     <fullyQualifiedTypeName name="org.mybatis.spring.support.SqlSessionDaoSupport"/>
     <fullyQualifiedTypeName name="homework.common.utils.RequestUtil"/>
     <fullyQualifiedTypeName name="homework.common.access.dao.AccessLogDao"/>
@@ -60,4 +44,20 @@
     <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.access.dao.AccessLogDao"/>
     <fullyQualifiedTypeName name="org.springframework.web.servlet.HandlerInterceptor"/>
     <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.common.beans.addAccessLogHistoryInterceptor"/>
+    <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.bbs.vo.DeleteBoardVO"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.SessionAttribute"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalAccessError"/>
+    <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Sheet"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+    <fullyQualifiedTypeName name="org.apache.logging.log4j.Logger"/>
+    <fullyQualifiedTypeName name="org.mybatis.logging.LoggerFactory"/>
+    <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+    <fullyQualifiedTypeName name="org.slf4j.Logger"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ExceptionHandler"/>
+    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+    <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.common.exceptions.UserIdendifyNotMatchException"/>
+    <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.common.exceptions.FileNotExistsException"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.javassist.bytecode.stackmap.BasicBlock.Maker"/>
+    <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.common.exceptions.MakeXlsxFileException"/>
 </qualifiedTypeNameHistroy>
