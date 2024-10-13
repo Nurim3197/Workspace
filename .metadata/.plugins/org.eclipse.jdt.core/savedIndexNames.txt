@@ -27,6 +27,10 @@ INDEX VERSION 1.134+C:\Devs\Workspace\.metadata\.plugins\org.eclipse.jdt.core
 2326671881.index
 1428879426.index
 666063770.index
+<<<<<<< Updated upstream
+=======
+3440603707.index
+>>>>>>> Stashed changes
 4225364276.index
 510264957.index
 2516485381.index
@@ -130,7 +134,10 @@ INDEX VERSION 1.134+C:\Devs\Workspace\.metadata\.plugins\org.eclipse.jdt.core
 217609099.index
 3902362414.index
 3464310079.index
+<<<<<<< Updated upstream
 1893078269.index
+=======
+>>>>>>> Stashed changes
 3847206783.index
 509406454.index
 2661028249.index
