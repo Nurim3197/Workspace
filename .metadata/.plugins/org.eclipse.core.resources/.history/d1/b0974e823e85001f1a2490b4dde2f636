@@ -1,0 +1,8 @@
+package homework.common.access.dao.impl;
+
+import homework.common.access.dao.AccessLogDao;
+
+@Repository
+public class AccessLogDaoImpl implements AccessLogDao {
+
+}

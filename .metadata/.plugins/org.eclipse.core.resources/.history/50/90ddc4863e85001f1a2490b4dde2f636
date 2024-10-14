@@ -1,0 +1,10 @@
+package homework.common.access.dao.impl;
+
+import org.springframework.stereotype.Repository;
+
+import homework.common.access.dao.AccessLogDao;
+
+@Repository
+public class AccessLogDaoImpl implements AccessLogDao {
+
+}

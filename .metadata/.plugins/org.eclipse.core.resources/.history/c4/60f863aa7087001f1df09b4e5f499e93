@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="homework.todo.dao.TodoDao">
+
+  <select id="selectTodoAllCount" resultType="_int">
+  SELECT COUNT(1)
+    FROM TODO
+  </select>
+  
+  <select id="selectAllTodo" resultType="homework.todo.vo.TodoVO">
+  SELECT TD_ID
+	   , TD_CNTNT
+	   , TO_CHAR(TD_DDDT, 'YYYY-MM-DD') TD_DDDT
+	   , TO_CHAR(TD_CRTDT, 'YYYY-MM-DD') TD_CRTDT
+	   , TD_CMPLT
+	   , 
+    FROM TODO
+  </select>
+  
+  <insert id="insertNewTodo" parameterType="homework.todo.vo.WriteTodoVO">
+  INSERT INTO TODO
+       ( TD_ID
+       , TD_CNTNT
+       , TD_DDDT
+       , TD_CRTDT
+       , EMAIL)
+  VALUES (SEQ_TD_PK.NEXTVAL
+       , #{content}
+       , TO_DATE(#{deadLine}, 'YYYY-MM-DD')
+       , SYSDATE)
+  </insert>
+  
+  <delete id="deleteOneTodo" parameterType="_int">
+  DELETE 
+    FROM TODO
+   WHERE TD_ID = #{_parameter}
+  </delete>
+  
+  <update id="switchComplete" parameterType="_int">
+  UPDATE TODO
+     SET TD_CMPLT = 'Y'
+   WHERE TD_ID = #{_parameter}
+  </update>
+  
+  
+</mapper>

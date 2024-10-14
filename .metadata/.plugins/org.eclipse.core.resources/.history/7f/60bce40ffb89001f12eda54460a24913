@@ -1,0 +1,26 @@
+$().ready(function(){
+	
+	var email = $(".member-menu").data("email");
+	var boardId = $(".grid-view-board").data("board-id");
+});
+
+
+function loadReplies(boardId){
+	
+}
+
+function createReplies(boardId){
+	
+}
+
+function modifyReply(replyId){
+	
+}
+
+function deleteReply(replyId){
+	
+}
+
+function recommendReply(replyId){
+	
+}

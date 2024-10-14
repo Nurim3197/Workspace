@@ -1,0 +1,6 @@
+package com.ktdsuniversity.edu.hello_spring.common.exceptions;
+
+public class AlreadyUseExcepction extends RuntimeException {
+	
+	
+}

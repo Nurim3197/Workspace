@@ -1,0 +1,25 @@
+package com.ktdsuniversity.edu.hello_spring.common.aop;
+
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Pointcut;
+import org.springframework.stereotype.Component;
+
+@Aspect	// AOP 컴포넌트로 명시.
+@Component
+public class TimingAspect {
+	
+	// AOP가 개입할 클래스 및 메소드를 명시.
+	/**
+	 * public 모든 반환타입 com.ktdsuniversity.edu.hello_spring 밑의 모든 패키지 중 service패키지
+	 * 		내부의 모든 패키지에서 클래스의 이름이 ServiceImpl로 끝나는 모든 클래스의 모든 메소드를 대상으로 한다.
+	 */
+	@Pointcut("execution(public * com.ktdsuniversity.edu.hello_spring..service..*Service.impl.*(..))")
+	public void aroundTarget() {
+		// 아무것도 하지 않음
+	}
+	
+	public Object timingAdvice() {
+		
+	}
+	
+}

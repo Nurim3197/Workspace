@@ -1,0 +1,18 @@
+package com.mate.common.exceptions;
+
+
+public class AlreadyUseException extends RuntimeException {
+
+	private static final long serialVersionUID = -2607352957083422596L;
+	
+	
+	public AlreadyUseException (RegistMemberVO registMemberVO, String message) {
+		super(message);
+		this.registMemberVO = registMemberVO;
+	}
+	
+	public RegistMemberVO getRegistMemberVO() {
+		return registMemberVO;
+	}
+	
+}

@@ -1,0 +1,15 @@
+package homework.member.dao;
+
+import homework.member.vo.RegistMemberVO;
+
+public interface MemberDao {
+	
+	public String NAMESPACE = "homework.member.dao.MemberDao";
+	
+	public int selectEmailCount(String email);
+	
+	public int insertNewMember(RegistMemberVO registMemberVO);
+	
+	public int selectSalt(String email);
+	
+}

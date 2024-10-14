@@ -1,0 +1,7 @@
+package com.ktdsuniversity.edu.hello_spring.common.exceptions;
+
+public class FileNotExistException extends RuntimeException {
+
+	private static final long serialVersionUID = -647751575320247609L;
+
+}

@@ -1,0 +1,15 @@
+package com.ktdsuniversity.edu.hello_spring.bbs.dao.impl;
+
+import org.mybatis.spring.support.SqlSessionDaoSupport;
+import org.springframework.stereotype.Repository;
+
+import com.ktdsuniversity.edu.hello_spring.bbs.dao.ReplyDao;
+
+@Repository
+public class ReplyDaoImpl extends SqlSessionDaoSupport  {
+
+	
+	@Autowired
+	
+	
+}

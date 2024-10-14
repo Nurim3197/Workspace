@@ -1,0 +1,25 @@
+$().ready(function(){
+	
+	var email = $(".member-menu").data("email");
+});
+
+
+function loadReplies(boardId){
+	
+}
+
+function createReplies(boardId){
+	
+}
+
+function modifyReply(replyId){
+	
+}
+
+function deleteReply(replyId){
+	
+}
+
+function recommendReply(replyId){
+	
+}

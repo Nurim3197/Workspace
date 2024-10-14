@@ -1,0 +1,6 @@
+package homework.common.access.dao;
+
+public interface AccessLogDao {
+	
+	public String NAMESPACE = "homework.common.access.dao.AccessLogDao" 
+}

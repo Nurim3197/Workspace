@@ -1,0 +1,12 @@
+$().ready(function(){
+	alert("!");
+});
+
+
+function loadReplies(boardId){
+	
+}
+
+function createReplies(boardId){
+	
+}

@@ -1,0 +1,12 @@
+package com.ktdsuniversity.edu.hello_spring.bbs.vo;
+
+public class ReplyVO {
+	private String replyId;
+	private String boardId;
+	private String email;
+	private String content;
+	private String crtDt;
+	private String mdfyDt;
+	private String recommendCnt;
+	private String parentReplyId;
+}

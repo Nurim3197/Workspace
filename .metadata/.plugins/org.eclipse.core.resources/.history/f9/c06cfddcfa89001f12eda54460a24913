@@ -1,0 +1,24 @@
+$().ready(function(){
+	alert("!");
+});
+
+
+function loadReplies(boardId){
+	
+}
+
+function createReplies(boardId){
+	
+}
+
+function modifyReply(replyId){
+	
+}
+
+function deleteReply(replyId){
+	
+}
+
+function recommendReply(replyId){
+	
+}

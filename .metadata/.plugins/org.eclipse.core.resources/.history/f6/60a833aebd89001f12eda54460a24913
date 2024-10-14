@@ -1,0 +1,50 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8" %>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Header</title>
+
+    <link rel="stylesheet" type="text/css" href="/css/Header.css"/>
+    <%--    <script type="text/javascript" src="../js/jquery-3.7.1.min.js"></script>--%>
+</head>
+<body>
+<div class="header">
+    <img class="logo" src="/public/Logo.png" alt="로고"/>
+    <ul>
+        <li><a href="">투어 요청 목록</a></li>
+        <li><a href="">가이드 투어 목록</a></li>
+        <li><a href="">가이드 목록</a></li>
+        <!-- <li> -->
+        <a href="">
+            <img
+                    class="messageButton"
+                    src="/public/chat.png"
+                    alt="채팅버튼"
+            />
+        </a>
+        <a href="">
+            <img
+                    class="alramButton"
+                    src="/public/alarmOnButton.png"
+                    alt="알람버튼"
+            />
+        </a>
+        <!-- </li> -->
+        <li>
+            <div class="personalMenu">
+                <ul>
+                    <li><a href="">로그아웃</a></li>
+                    <li><img src="/public/CountorLine@1x.png" alt="구분선"/></li>
+                    <li><a href="">마이페이지</a></li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+    <!-- <div class="personalMenu">
+
+    </div> -->
+</div>
+</body>
+</html>

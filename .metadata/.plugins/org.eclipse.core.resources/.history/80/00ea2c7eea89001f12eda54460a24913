@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ktdsuniversity.edu.hello_spring.bbs.dao.replyDao">
+	
+	<resultMap type="com.ktdsuniversity.edu.hello_spring.bbs.vo.ReplyVO"
+				id="replyVOMap"
+				autoMapping="true">
+		<id column="REPLY_ID" property="replyID"/>
+		<association property="memberVO"
+						javaType="com.ktdsuniversity.edu.hello_spring.member.vo">
+			<id column="REPLY_ID" property="replyId" />
+			<result column="NAME" property="name" />
+		</association>
+	 </resultMap>
+	 <select id="getAllReplies"
+	 		parameterType="_int"
+	 		resultMap="replyVOMap">
+	 		<!-- 상단에 이쓰는 resultMap에서 replyVO에 맞는 값 자동으로 Mapping해준다. -->
+	 		
+	 	
+	 </select>
+</mapper>

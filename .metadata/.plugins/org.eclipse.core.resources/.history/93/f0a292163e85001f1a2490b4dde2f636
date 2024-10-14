@@ -1,0 +1,71 @@
+package homework.member.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import homework.common.beans.Sha;
+import homework.common.utils.RequestUtil;
+import homework.member.dao.MemberDao;
+import homework.member.service.MemberService;
+import homework.member.vo.LoginMemberVO;
+import homework.member.vo.MemberVO;
+import homework.member.vo.RegistMemberVO;
+
+@Service
+public class MemberServiceImpl implements MemberService {
+	
+	@Autowired
+	private MemberDao memberDao;
+	
+	@Autowired
+	private Sha sha;
+	
+	@Override
+	public boolean checkAvailableEmail(String email) {
+		return this.memberDao.selectEmailCount(email) == 0;
+	}
+	
+	@Override
+	public boolean registNewMember(RegistMemberVO registMemberVO) {
+		String salt = sha.generateSalt();
+		
+		String password = registMemberVO.getPassword();
+		password = sha.getEncrypt(password, salt);
+		
+		registMemberVO.setPassword(password);
+		registMemberVO.setSalt(salt);
+		
+		int insertCount = this.memberDao.insertNewMember(registMemberVO);
+		return insertCount > 0;
+	}
+	
+	@Override
+	public MemberVO readMember(LoginMemberVO loginMemberVO) {
+		
+		String salt = this.memberDao.selectSalt(loginMemberVO.getEmail());
+		if (salt == null) {
+			throw new IllegalArgumentException("아이디 또는 비밀번호가 올바르지 않습니다.");
+		}
+		
+		String password = loginMemberVO.getPassword();
+		password = this.sha.getEncrypt(password, salt);
+		loginMemberVO.setPassword(password);
+		
+		MemberVO memberVO = this.memberDao.selectOneMember(loginMemberVO);
+		
+		
+		if (memberVO == null) {
+			loginMemberVO.setIp(RequestUtil.getIp());
+			this.memberDao.updateLoginFailState(loginMemberVO);
+			
+			throw new IllegalArgumentException("아이디 또는 비밀번호가 올바르지 않습니다.");
+		}
+		
+		loginMemberVO.setIp(RequestUtil.getIp());
+		this.memberDao.updateLoginFailState(loginMemberVO);
+		
+		return memberVO;
+	}
+	
+	
+}

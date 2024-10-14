@@ -1,0 +1,8 @@
+package com.ktdsuniversity.edu.hello_spring.common.exceptions;
+
+public class AlreadyUseExcepction extends RuntimeException {
+
+	private static final long serialVersionUID = -2607352957083422596L;
+	
+	
+}

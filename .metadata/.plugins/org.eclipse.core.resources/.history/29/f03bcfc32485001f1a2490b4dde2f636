@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="homework.member.dao.MemberDao">
+	<select id="selectEmailCount" parameterType="string" resultType="_int">
+		SELECT COUNT(1)
+  		  FROM MEMBER
+ 		 WHERE EMAIL = #{_parameter}
+	</select>
+	
+	<insert id="insertNewMember"
+	parameterType="homework.member.vo.RegistMemberVO">
+	INSERT INTO MEMBER
+		 ( NAME
+		 , EMAIL
+		 , PASSWORD
+		 , SALT )
+	VALUES ( #{name}
+		 , #{email}
+		 , #{password}
+		 , #{salt} )
+	</insert>
+
+	<select id="selectSalt"></select>
+
+</mapper>

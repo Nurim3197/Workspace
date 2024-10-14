@@ -1,0 +1,53 @@
+package com.ktdsuniversity.edu.hello_spring.bbs.service.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.ktdsuniversity.edu.hello_spring.bbs.dao.ReplyDao;
+import com.ktdsuniversity.edu.hello_spring.bbs.service.ReplyService;
+import com.ktdsuniversity.edu.hello_spring.bbs.vo.ReplyListVO;
+import com.ktdsuniversity.edu.hello_spring.bbs.vo.ReplyVO;
+
+@Service
+public class ReplyServiceInfo implements ReplyService {
+	
+	@Autowired
+	private ReplyDao replyDao;
+	
+	@Override
+	public ReplyListVO getAllReplies(int boardId) {
+		ReplyListVO replyListVO = new ReplyListVO();
+		List<ReplyVO> list = this.replyDao.getAllReplies(boardId);
+		int cnt = this.replyDao.getRepliesAllCount();
+		
+		replyListVO.setReplyList(list);
+		replyListVO.setReplyCnt(cnt);
+		
+		return replyListVO;
+	}
+	
+	@Override
+	public boolean createNewReply(ReplyVO replyVO) {
+		return false;
+	}
+	
+	@Override
+	public boolean deleteOneReply(int replyId, String email) {
+		return false;
+	}
+	
+
+	@Override
+	public boolean modifyOneReply(ReplyVO replyVO) {
+		return false;
+	}
+	
+	@Override
+	public boolean recommendOneReply(int replyId, String email) {
+		return false;
+	}
+	
+	
+}

@@ -1,0 +1,13 @@
+package homework.member.vo;
+
+public class LoginMemberVO {
+	
+	private String email;
+	
+	private String password;
+	
+	private String salt;
+	
+	private String ip;	
+	
+}

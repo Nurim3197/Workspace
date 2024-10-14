@@ -1,0 +1,116 @@
+* {
+  box-sizing: content-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 90rem;
+  height: 135px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-plus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90rem;
+  height: 135px;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-bottom: 1px solid #000;
+}
+
+.header-plus > .logo {
+  width: auto;
+  height: 61px;
+  margin: 0 40px 0 0;
+}
+
+.header-plus > ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  flex-grow: 1;
+  padding: 0;
+  margin: 0;
+}
+
+.header-plus > ul > li {
+  margin: 0 15px;
+  font-size: 24px;
+}
+
+.header-plus > ul > li > a,
+.personalMenu ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-plus > ul > li > a:visited,
+.header-plus > ul > li > a:active,
+.header-plus > ul > li > a:hover,
+.personalMenu ul > li > a:visited,
+.personalMenu ul > li > a:active,
+.personalMenu ul > li > a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.header-plus > ul > a > .alramButton {
+  width: 48px;
+  height: 48px;
+  margin: 0 10px;
+}
+
+.header-plus > ul > li.personalMenu {
+  position: absolute;
+  right: 80px;
+}
+
+.personalMenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.personalMenu ul li {
+  font-size: 0.75rem;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+@media (max-width: 1200px) {
+  .header-plus {
+    padding: 0 40px;
+  }
+
+  .header-plus > ul > li {
+    margin: 0 10px;
+    font-size: 16px;
+  }
+
+  .header-plus > ul > a > .alramButton {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-plus {
+    padding: 0 20px;
+  }
+
+  .header-plus > ul > li {
+    margin: 0 8px;
+    font-size: 14px;
+  }
+
+  .header-plus > ul > a > .alramButton {
+    width: 32px;
+    height: 32px;
+  }
+}

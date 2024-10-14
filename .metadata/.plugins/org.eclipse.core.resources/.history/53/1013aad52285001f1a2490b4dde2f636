@@ -1,0 +1,5 @@
+package homework.common.utils;
+
+public class RequestUtil {
+
+}

@@ -1,0 +1,5 @@
+package homework.member.vo;
+
+public class LoginMemberVO {
+	
+}

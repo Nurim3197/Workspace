@@ -1,0 +1,10 @@
+package homework.todo.vo;
+
+public class DeleteTodoVO {
+	
+	private String id;
+	
+	private String email;
+	
+	
+}

@@ -1,0 +1,8 @@
+package com.ktdsuniversity.edu.hello_spring.bbs.vo;
+
+public class ReplyListVO {
+	
+	private int ReplyCnt;
+	
+	private List<ReplyVO> ReplyList
+}

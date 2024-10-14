@@ -1,0 +1,11 @@
+package com.mate.common.exceptions;
+
+public class FileNotExistException extends RuntimeException {
+
+	private static final long serialVersionUID = -647751575320247609L;
+	
+	public FileNotExistException(String message) {
+		super(message);
+	}
+	
+}

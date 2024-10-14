@@ -1,0 +1,30 @@
+package com.ktdsuniversity.edu.hello_spring.bbs.vo;
+
+import java.util.List;
+
+public class ReplyListVO {
+	
+	private int ReplyCnt;
+	
+	private List<ReplyVO> ReplyList;
+
+	
+	
+	public int getReplyCnt() {
+		return ReplyCnt;
+	}
+
+	public void setReplyCnt(int replyCnt) {
+		ReplyCnt = replyCnt;
+	}
+
+	public List<ReplyVO> getReplyList() {
+		return ReplyList;
+	}
+
+	public void setReplyList(List<ReplyVO> replyList) {
+		ReplyList = replyList;
+	}
+	
+	
+}

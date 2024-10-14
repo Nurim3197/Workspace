@@ -1,0 +1,6 @@
+package com.ktdsuniversity.edu.hello_spring.bbs.dao.impl;
+
+@Repository
+public class ReplyDaoImpl {
+
+}

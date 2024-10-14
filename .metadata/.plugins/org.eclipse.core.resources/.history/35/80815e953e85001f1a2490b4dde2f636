@@ -1,0 +1,18 @@
+package homework.common.access.dao.impl;
+
+import org.mybatis.spring.SqlSessionTemplate;
+import org.mybatis.spring.support.SqlSessionDaoSupport;
+import org.springframework.stereotype.Repository;
+
+import homework.common.access.dao.AccessLogDao;
+
+@Repository
+public class AccessLogDaoImpl extends SqlSessionDaoSupport implements AccessLogDao {
+	
+	@Override
+	public void setSqlSessionTemplate(SqlSessionTemplate sqlSessionTemplate) {
+		// TODO Auto-generated method stub
+		super.setSqlSessionTemplate(sqlSessionTemplate);
+	}
+	
+}

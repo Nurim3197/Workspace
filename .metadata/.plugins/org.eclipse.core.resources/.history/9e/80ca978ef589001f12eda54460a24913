@@ -1,0 +1,62 @@
+package com.ktdsuniversity.edu.hello_spring.bbs.service.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.ktdsuniversity.edu.hello_spring.bbs.dao.ReplyDao;
+import com.ktdsuniversity.edu.hello_spring.bbs.service.ReplyService;
+import com.ktdsuniversity.edu.hello_spring.bbs.vo.ReplyListVO;
+import com.ktdsuniversity.edu.hello_spring.bbs.vo.ReplyVO;
+import com.ktdsuniversity.edu.hello_spring.bbs.vo.WriteReplyVO;
+
+@Service
+public class ReplyServiceInfo implements ReplyService {
+	
+	@Autowired
+	private ReplyDao replyDao;
+	
+	@Override
+	public ReplyListVO getAllReplies(int boardId) {
+		ReplyListVO replyListVO = new ReplyListVO();
+		List<ReplyVO> list = this.replyDao.getAllReplies(boardId);
+		int cnt = this.replyDao.getRepliesAllCount(boardId);
+		
+		replyListVO.setReplyList(list);
+		replyListVO.setReplyCnt(cnt);
+		
+		return replyListVO;
+	}
+	
+	@Override
+	public boolean createNewReply(WriteReplyVO writeReplyVO) {
+		int insertCnt = this.replyDao.createNewReply(writeReplyVO);
+		return insertCnt > 0;
+	}
+	
+	@Override
+	public boolean deleteOneReply(int replyId, String email) {
+		ReplyVO replyVO = this.replyDao.getOneReply(replyId);
+		if (email.equals(replyVO.getEmail())) {
+			int deleteCnt = this.replyDao.deleteOneReply(replyId);
+			return deleteCnt > 0;
+		}
+		return false;
+	}
+	
+
+	@Override
+	public boolean modifyOneReply(WriteReplyVO writeReplyVO) {
+		String userEmail = writeReplyVO.getEmail();
+		ReplyVO replyVO = writeReplyVO.getBoardId();
+		return false;
+	}
+	
+	@Override
+	public boolean recommendOneReply(int replyId, String email) {
+		return false;
+	}
+	
+	
+}

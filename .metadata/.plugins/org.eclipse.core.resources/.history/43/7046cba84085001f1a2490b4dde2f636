@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="homework.access.dao.AccessDao">
+	
+	
+		
+	
+	
+	
+	<insert id="insertNewAccessLog"
+	 parameterType="homework.common.access.vo.AccessLogVO">
+	
+	</insert>
+
+
+	<select id="selectLoginFailCount"
+	parameterType="string"
+	resultType="_int">
+	SELECT COUNT(1)
+	  FROM ACCESS_LOG
+	 WHERE ACCESS_TYPE = 'LOGIN'
+	   AND ACCESS_IP = '0.0.0.1'
+	   AND ACCESS_TIME BETWEEN SYSDATE - 1/24 AND SYSDATE 
+	   AND LOGIN_SUCCESS_YN = 'N'
+	
+	</select>
+
+
+
+</mapper>
