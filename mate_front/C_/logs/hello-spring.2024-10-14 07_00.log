@@ -1,0 +1,68 @@
+2024-10-14 07:00:02.345 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2024-10-14 07:00:02.348 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2024-10-14 07:00:02.356 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms 
+2024-10-14 07:00:05.604 [http-nio-8080-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /mate/js/jquery-3.7.1.min.js 
+2024-10-14 07:00:05.611 [http-nio-8080-exec-5] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /mate/public/alarmOnButton.png 
+2024-10-14 07:00:05.604 [http-nio-8080-exec-6] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /mate/public/Logo.png 
+2024-10-14 07:00:05.605 [http-nio-8080-exec-7] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /mate/public/CountorLine@1x.png 
+2024-10-14 07:00:05.632 [http-nio-8080-exec-7] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /mate/public/CountorLine@1x.png. 
+2024-10-14 07:00:05.633 [http-nio-8080-exec-3] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /mate/js/jquery-3.7.1.min.js. 
+2024-10-14 07:00:05.635 [http-nio-8080-exec-8] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ma/image/tourlist/%EB%B2%A0%EB%8B%88%EC%8A%A4.jpg
+2024-10-14 07:00:05.636 [http-nio-8080-exec-6] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /mate/public/Logo.png. 
+2024-10-14 07:00:05.637 [http-nio-8080-exec-8] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /ma/image/tourlist/%EB%B2%A0%EB%8B%88%EC%8A%A4.jpg.
+2024-10-14 07:00:05.637 [http-nio-8080-exec-5] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /mate/public/alarmOnButton.png. 
+2024-10-14 07:00:05.652 [http-nio-8080-exec-9] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ma/image/tourlist/%EB%9D%BC%EC%8A%A4%EB%B2%A0%EA%B0%80%EC%8A%A4%20%EC%95%BC%EA%B2%BD.jpg
+2024-10-14 07:00:05.653 [http-nio-8080-exec-9] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /ma/image/tourlist/%EB%9D%BC%EC%8A%A4%EB%B2%A0%EA%B0%80%EC%8A%A4%20%EC%95%BC%EA%B2%BD.jpg.
+2024-10-14 07:00:05.844 [http-nio-8080-exec-1] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ma/image/tourlist/%EB%B2%A0%ED%8A%B8%EB%82%A8%20%ED%80%B4%EB%85%BC%20%EB%8F%84%EC%8B%9C.jpg
+2024-10-14 07:00:05.846 [http-nio-8080-exec-1] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /ma/image/tourlist/%EB%B2%A0%ED%8A%B8%EB%82%A8%20%ED%80%B4%EB%85%BC%20%EB%8F%84%EC%8B%9C.jpg.
+2024-10-14 07:00:05.847 [http-nio-8080-exec-10] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ma/image/tourlist/%EC%82%BF%ED%8F%AC%EB%A1%9C%20%EC%98%A8%EC%B2%9C.jpg
+2024-10-14 07:00:05.849 [http-nio-8080-exec-10] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /ma/image/tourlist/%EC%82%BF%ED%8F%AC%EB%A1%9C%20%EC%98%A8%EC%B2%9C.jpg.
+2024-10-14 07:00:05.868 [http-nio-8080-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /mate/js/jquery-3.7.1.min.js 
+2024-10-14 07:00:05.872 [http-nio-8080-exec-3] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /mate/js/jquery-3.7.1.min.js. 
+2024-10-14 07:00:14.119 [http-nio-8080-exec-8] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /mate/public/Logo.png 
+2024-10-14 07:00:14.119 [http-nio-8080-exec-5] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /mate/js/jquery-3.7.1.min.js 
+2024-10-14 07:00:14.120 [http-nio-8080-exec-5] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /mate/js/jquery-3.7.1.min.js. 
+2024-10-14 07:00:14.120 [http-nio-8080-exec-8] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /mate/public/Logo.png. 
+2024-10-14 07:00:14.120 [http-nio-8080-exec-9] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /mate/public/alarmOnButton.png 
+2024-10-14 07:00:14.121 [http-nio-8080-exec-9] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /mate/public/alarmOnButton.png. 
+2024-10-14 07:00:14.165 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ma/image/tourlist/%EB%B2%A0%EB%8B%88%EC%8A%A4.jpg
+2024-10-14 07:00:14.165 [http-nio-8080-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ma/image/tourlist/%EB%9D%BC%EC%8A%A4%EB%B2%A0%EA%B0%80%EC%8A%A4%20%EC%95%BC%EA%B2%BD.jpg
+2024-10-14 07:00:14.166 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /ma/image/tourlist/%EB%B2%A0%EB%8B%88%EC%8A%A4.jpg.
+2024-10-14 07:00:14.164 [http-nio-8080-exec-6] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /mate/public/CountorLine@1x.png 
+2024-10-14 07:00:14.166 [http-nio-8080-exec-3] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /ma/image/tourlist/%EB%9D%BC%EC%8A%A4%EB%B2%A0%EA%B0%80%EC%8A%A4%20%EC%95%BC%EA%B2%BD.jpg.
+2024-10-14 07:00:14.167 [http-nio-8080-exec-10] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ma/image/tourlist/%EC%82%BF%ED%8F%AC%EB%A1%9C%20%EC%98%A8%EC%B2%9C.jpg
+2024-10-14 07:00:14.168 [http-nio-8080-exec-4] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /mate/js/jquery-3.7.1.min.js 
+2024-10-14 07:00:14.167 [http-nio-8080-exec-6] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /mate/public/CountorLine@1x.png. 
+2024-10-14 07:00:14.168 [http-nio-8080-exec-10] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /ma/image/tourlist/%EC%82%BF%ED%8F%AC%EB%A1%9C%20%EC%98%A8%EC%B2%9C.jpg.
+2024-10-14 07:00:14.167 [http-nio-8080-exec-1] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ma/image/tourlist/%EB%B2%A0%ED%8A%B8%EB%82%A8%20%ED%80%B4%EB%85%BC%20%EB%8F%84%EC%8B%9C.jpg
+2024-10-14 07:00:14.169 [http-nio-8080-exec-4] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /mate/js/jquery-3.7.1.min.js. 
+2024-10-14 07:00:14.170 [http-nio-8080-exec-1] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /ma/image/tourlist/%EB%B2%A0%ED%8A%B8%EB%82%A8%20%ED%80%B4%EB%85%BC%20%EB%8F%84%EC%8B%9C.jpg.
+2024-10-14 07:00:19.472 [http-nio-8080-exec-9] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /mate/public/Logo.png 
+2024-10-14 07:00:19.472 [http-nio-8080-exec-8] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /mate/js/jquery-3.7.1.min.js 
+2024-10-14 07:00:19.476 [http-nio-8080-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /mate/public/alarmOnButton.png 
+2024-10-14 07:00:19.476 [http-nio-8080-exec-8] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /mate/js/jquery-3.7.1.min.js. 
+2024-10-14 07:00:19.477 [http-nio-8080-exec-3] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /mate/public/alarmOnButton.png. 
+2024-10-14 07:00:19.477 [http-nio-8080-exec-9] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /mate/public/Logo.png. 
+2024-10-14 07:00:19.505 [http-nio-8080-exec-6] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ma/image/tourlist/%EB%B2%A0%ED%8A%B8%EB%82%A8%20%ED%80%B4%EB%85%BC%20%EB%8F%84%EC%8B%9C.jpg
+2024-10-14 07:00:19.505 [http-nio-8080-exec-10] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ma/image/tourlist/%EC%82%BF%ED%8F%AC%EB%A1%9C%20%EC%98%A8%EC%B2%9C.jpg
+2024-10-14 07:00:19.505 [http-nio-8080-exec-7] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ma/image/tourlist/%EB%9D%BC%EC%8A%A4%EB%B2%A0%EA%B0%80%EC%8A%A4%20%EC%95%BC%EA%B2%BD.jpg
+2024-10-14 07:00:19.505 [http-nio-8080-exec-4] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ma/image/tourlist/%EB%B2%A0%EB%8B%88%EC%8A%A4.jpg
+2024-10-14 07:00:19.505 [http-nio-8080-exec-1] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /mate/public/CountorLine@1x.png 
+2024-10-14 07:00:19.505 [http-nio-8080-exec-7] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /ma/image/tourlist/%EB%9D%BC%EC%8A%A4%EB%B2%A0%EA%B0%80%EC%8A%A4%20%EC%95%BC%EA%B2%BD.jpg.
+2024-10-14 07:00:19.505 [http-nio-8080-exec-1] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /mate/public/CountorLine@1x.png. 
+2024-10-14 07:00:19.505 [http-nio-8080-exec-4] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /ma/image/tourlist/%EB%B2%A0%EB%8B%88%EC%8A%A4.jpg.
+2024-10-14 07:00:19.505 [http-nio-8080-exec-10] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /ma/image/tourlist/%EC%82%BF%ED%8F%AC%EB%A1%9C%20%EC%98%A8%EC%B2%9C.jpg.
+2024-10-14 07:00:19.505 [http-nio-8080-exec-6] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /ma/image/tourlist/%EB%B2%A0%ED%8A%B8%EB%82%A8%20%ED%80%B4%EB%85%BC%20%EB%8F%84%EC%8B%9C.jpg.
+2024-10-14 07:00:19.524 [http-nio-8080-exec-8] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /mate/js/jquery-3.7.1.min.js 
+2024-10-14 07:00:19.525 [http-nio-8080-exec-8] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /mate/js/jquery-3.7.1.min.js. 
+2024-10-14 07:00:49.604 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final 
+2024-10-14 07:00:49.929 [restartedMain] INFO  com.mate.MateApplication - Starting MateApplication using Java 22.0.1 with PID 11169 (/Users/sinpyungho/IdeaProjects/Mate-Develop/mate_front/target/classes started by sinpyungho in /Users/sinpyungho/IdeaProjects/Mate-Develop/mate_front) 
+2024-10-14 07:00:49.932 [restartedMain] INFO  com.mate.MateApplication - No active profile set, falling back to 1 default profile: "default" 
+2024-10-14 07:00:50.273 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in /Users/sinpyungho/.m2/repository/com/oracle/database/jdbc/ojdbc11/21.9.0.0/ojdbc11-21.9.0.0.jar referenced one or more files that do not exist: file:/Users/sinpyungho/.m2/repository/com/oracle/database/jdbc/ojdbc11/21.9.0.0/oraclepki.jar 
+2024-10-14 07:00:50.273 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2024-10-14 07:00:50.274 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2024-10-14 07:00:56.031 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.mate]' package. Please check your configuration. 
+2024-10-14 07:00:59.801 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http) 
+2024-10-14 07:00:59.868 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2024-10-14 07:00:59.891 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2024-10-14 07:00:59.892 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30] 

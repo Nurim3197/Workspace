@@ -1,0 +1,164 @@
+2024-10-14 06:56:00.065 [restartedMain] INFO  com.mate.MateApplication - Starting MateApplication using Java 22.0.1 with PID 11031 (/Users/sinpyungho/IdeaProjects/Mate-Develop/mate_front/target/classes started by sinpyungho in /Users/sinpyungho/IdeaProjects/Mate-Develop/mate_front) 
+2024-10-14 06:56:00.073 [restartedMain] INFO  com.mate.MateApplication - No active profile set, falling back to 1 default profile: "default" 
+2024-10-14 06:56:00.197 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in /Users/sinpyungho/.m2/repository/com/oracle/database/jdbc/ojdbc11/21.9.0.0/ojdbc11-21.9.0.0.jar referenced one or more files that do not exist: file:/Users/sinpyungho/.m2/repository/com/oracle/database/jdbc/ojdbc11/21.9.0.0/oraclepki.jar 
+2024-10-14 06:56:00.198 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2024-10-14 06:56:00.198 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2024-10-14 06:56:01.547 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.mate]' package. Please check your configuration. 
+2024-10-14 06:56:02.350 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http) 
+2024-10-14 06:56:02.369 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2024-10-14 06:56:02.375 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2024-10-14 06:56:02.376 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30] 
+2024-10-14 06:56:02.705 [restartedMain] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2024-10-14 06:56:02.714 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2024-10-14 06:56:02.715 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2515 ms 
+2024-10-14 06:56:03.140 [restartedMain] WARN  o.s.aop.framework.CglibAopProxy - Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final, consider using interface-based JDK proxies instead. 
+2024-10-14 06:56:03.666 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server 
+2024-10-14 06:56:03.702 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2024-10-14 06:56:03.735 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/' 
+2024-10-14 06:56:03.748 [restartedMain] INFO  com.mate.MateApplication - Started MateApplication in 4.633 seconds (process running for 6.838) 
+2024-10-14 06:56:09.006 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2024-10-14 06:56:09.006 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2024-10-14 06:56:09.008 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms 
+2024-10-14 06:56:09.983 [http-nio-8080-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ma/image/tourlist/%EB%9D%BC%EC%8A%A4%EB%B2%A0%EA%B0%80%EC%8A%A4%20%EC%95%BC%EA%B2%BD.jpg
+2024-10-14 06:56:09.987 [http-nio-8080-exec-4] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ma/image/tourlist/%EB%B2%A0%EB%8B%88%EC%8A%A4.jpg
+2024-10-14 06:56:09.998 [http-nio-8080-exec-5] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ma/image/tourlist/%EB%B2%A0%ED%8A%B8%EB%82%A8%20%ED%80%B4%EB%85%BC%20%EB%8F%84%EC%8B%9C.jpg
+2024-10-14 06:56:09.998 [http-nio-8080-exec-6] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ma/image/tourlist/%EC%82%BF%ED%8F%AC%EB%A1%9C%20%EC%98%A8%EC%B2%9C.jpg
+2024-10-14 06:56:09.998 [http-nio-8080-exec-5] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /ma/image/tourlist/%EB%B2%A0%ED%8A%B8%EB%82%A8%20%ED%80%B4%EB%85%BC%20%EB%8F%84%EC%8B%9C.jpg.
+2024-10-14 06:56:09.999 [http-nio-8080-exec-3] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /ma/image/tourlist/%EB%9D%BC%EC%8A%A4%EB%B2%A0%EA%B0%80%EC%8A%A4%20%EC%95%BC%EA%B2%BD.jpg.
+2024-10-14 06:56:09.998 [http-nio-8080-exec-4] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /ma/image/tourlist/%EB%B2%A0%EB%8B%88%EC%8A%A4.jpg.
+2024-10-14 06:56:09.998 [http-nio-8080-exec-6] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /ma/image/tourlist/%EC%82%BF%ED%8F%AC%EB%A1%9C%20%EC%98%A8%EC%B2%9C.jpg.
+2024-10-14 06:56:10.127 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 26 class path changes (0 additions, 9 deletions, 17 modifications) 
+2024-10-14 06:56:10.133 [Thread-1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"] 
+2024-10-14 06:56:10.429 [restartedMain] INFO  com.mate.MateApplication - Starting MateApplication using Java 22.0.1 with PID 11031 (/Users/sinpyungho/IdeaProjects/Mate-Develop/mate_front/target/classes started by sinpyungho in /Users/sinpyungho/IdeaProjects/Mate-Develop/mate_front) 
+2024-10-14 06:56:10.429 [restartedMain] INFO  com.mate.MateApplication - No active profile set, falling back to 1 default profile: "default" 
+2024-10-14 06:56:10.764 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.mate]' package. Please check your configuration. 
+2024-10-14 06:56:10.860 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http) 
+2024-10-14 06:56:10.861 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2024-10-14 06:56:10.862 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2024-10-14 06:56:10.862 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30] 
+2024-10-14 06:56:11.006 [restartedMain] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2024-10-14 06:56:11.014 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2024-10-14 06:56:11.015 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 583 ms 
+2024-10-14 06:56:11.271 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server 
+2024-10-14 06:56:11.282 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2024-10-14 06:56:11.285 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/' 
+2024-10-14 06:56:11.293 [restartedMain] INFO  com.mate.MateApplication - Started MateApplication in 0.936 seconds (process running for 14.383) 
+2024-10-14 06:56:11.302 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   WebMvcAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'jakarta.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration#formContentFilter matched:
+      - @ConditionalOnProperty (spring.mvc.formcontent.filter.enabled) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.web.filter.FormContentFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.EnableWebMvcConfiguration#flashMapManager matched:
+      - @ConditionalOnMissingBean (names: flashMapManager; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.EnableWebMvcConfiguration#localeResolver matched:
+      - @ConditionalOnMissingBean (names: localeResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.EnableWebMvcConfiguration#themeResolver matched:
+      - @ConditionalOnMissingBean (names: themeResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#defaultViewResolver matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.InternalResourceViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#requestContextFilter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.context.request.RequestContextListener,org.springframework.web.filter.RequestContextFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#viewResolver matched:
+      - @ConditionalOnBean (types: org.springframework.web.servlet.ViewResolver; SearchStrategy: all) found beans 'defaultViewResolver', 'beanNameViewResolver', 'mvcViewResolver'; @ConditionalOnMissingBean (names: viewResolver types: org.springframework.web.servlet.view.ContentNegotiatingViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   WebMvcAutoConfiguration#hiddenHttpMethodFilter:
+      Did not match:
+         - @ConditionalOnProperty (spring.mvc.hiddenmethod.filter.enabled) did not find property 'enabled' (OnPropertyCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#beanNameViewResolver:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.BeanNameViewResolver; SearchStrategy: all) found beans of type 'org.springframework.web.servlet.view.BeanNameViewResolver' beanNameViewResolver (OnBeanCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+ 
+2024-10-14 06:56:12.682 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 9 class path changes (9 additions, 0 deletions, 0 modifications) 
+2024-10-14 06:56:12.684 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"] 
+2024-10-14 06:56:12.821 [restartedMain] INFO  com.mate.MateApplication - Starting MateApplication using Java 22.0.1 with PID 11031 (/Users/sinpyungho/IdeaProjects/Mate-Develop/mate_front/target/classes started by sinpyungho in /Users/sinpyungho/IdeaProjects/Mate-Develop/mate_front) 
+2024-10-14 06:56:12.821 [restartedMain] INFO  com.mate.MateApplication - No active profile set, falling back to 1 default profile: "default" 
+2024-10-14 06:56:13.226 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.mate]' package. Please check your configuration. 
+2024-10-14 06:56:13.304 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http) 
+2024-10-14 06:56:13.306 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2024-10-14 06:56:13.307 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2024-10-14 06:56:13.307 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30] 
+2024-10-14 06:56:13.425 [restartedMain] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2024-10-14 06:56:13.427 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2024-10-14 06:56:13.427 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 600 ms 
+2024-10-14 06:56:13.526 [restartedMain] WARN  o.s.aop.framework.CglibAopProxy - Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final, consider using interface-based JDK proxies instead. 
+2024-10-14 06:56:13.691 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server 
+2024-10-14 06:56:13.701 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2024-10-14 06:56:13.708 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/' 
+2024-10-14 06:56:13.710 [restartedMain] INFO  com.mate.MateApplication - Started MateApplication in 0.942 seconds (process running for 16.8) 
+2024-10-14 06:56:13.711 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   WebMvcAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport; SearchStrategy: all) found beans of type 'org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport' org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required classes 'jakarta.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+ 
