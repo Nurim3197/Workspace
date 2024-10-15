@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.core.io.Resource"/>
-    <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.common.beans.FileHandler"/>
-    <fullyQualifiedTypeName name="org.springframework.web.multipart.MultipartFile"/>
-    <fullyQualifiedTypeName name="ch.qos.logback.core.recovery.ResilientSyslogOutputStream"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ModelAttribute"/>
-    <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.member.dao.MemberDao"/>
-    <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.member.vo.RegistMemberVO"/>
-    <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.member.service.MemberService"/>
-    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
-    <fullyQualifiedTypeName name="org.springframework.web.servlet.ViewResolver"/>
-    <fullyQualifiedTypeName name="jakarta.validation.Valid"/>
-    <fullyQualifiedTypeName name="com.fasterxml.jackson.core.type.WritableTypeId"/>
     <fullyQualifiedTypeName name="jakarta.validation.constraints.Size"/>
     <fullyQualifiedTypeName name="org.springframework.format.annotation.DateTimeFormat"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
@@ -23,7 +11,6 @@
     <fullyQualifiedTypeName name="jakarta.servlet.http.HttpServletRequest"/>
     <fullyQualifiedTypeName name="org.springframework.web.context.request.ServletRequestAttributes"/>
     <fullyQualifiedTypeName name="org.springframework.web.context.request.RequestContextHolder"/>
-    <fullyQualifiedTypeName name="jakarta.validation.constraints.NotBlank"/>
     <fullyQualifiedTypeName name="jakarta.validation.constraints.Email"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
     <fullyQualifiedTypeName name="jakarta.security.auth.message.callback.PrivateKeyCallback.Request"/>
@@ -46,18 +33,31 @@
     <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
     <fullyQualifiedTypeName name="org.apache.logging.log4j.Logger"/>
     <fullyQualifiedTypeName name="org.mybatis.logging.LoggerFactory"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ExceptionHandler"/>
     <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
     <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.common.exceptions.UserIdendifyNotMatchException"/>
     <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.common.exceptions.FileNotExistsException"/>
     <fullyQualifiedTypeName name="org.apache.ibatis.javassist.bytecode.stackmap.BasicBlock.Maker"/>
     <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.common.exceptions.MakeXlsxFileException"/>
     <fullyQualifiedTypeName name="org.aspectj.lang.annotation.AfterThrowing"/>
-    <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
-    <fullyQualifiedTypeName name="org.slf4j.Logger"/>
     <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.bbs.dao.ReplyDao"/>
     <fullyQualifiedTypeName name="org.mybatis.spring.support.SqlSessionDaoSupport"/>
     <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.common.exceptions.PageNotExistsFoundException"/>
     <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.bbs.service.ReplyService"/>
+    <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+    <fullyQualifiedTypeName name="org.slf4j.Logger"/>
+    <fullyQualifiedTypeName name="jakarta.validation.constraints.NotBlank"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="java.lang.Runtime"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ExceptionHandler"/>
+    <fullyQualifiedTypeName name="com.ktdsuniversity.edu.hello_spring.common.exceptions.AjaxException"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
+    <fullyQualifiedTypeName name="com.ktds.mate.access.dao.AccessLogDao"/>
+    <fullyQualifiedTypeName name="com.ktds.mate.access.vo.AccessLogVO"/>
+    <fullyQualifiedTypeName name="com.ktds.mate.bbs.dao.ChatRoomDao"/>
+    <fullyQualifiedTypeName name="com.ktds.mate.bbs.vo.ChatRoomVO"/>
+    <fullyQualifiedTypeName name="com.ktds.mate.bbs.vo.ChatRoomListVO"/>
+    <fullyQualifiedTypeName name="com.ktds.mate.bbs.service.ChatRoomService"/>
+    <fullyQualifiedTypeName name="com.ktds.mate.bbs.vo.WriteChatRoomVO"/>
 </qualifiedTypeNameHistroy>

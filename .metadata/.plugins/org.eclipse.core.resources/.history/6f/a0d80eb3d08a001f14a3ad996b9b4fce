@@ -1,0 +1,101 @@
+-- 일단 테스트 데이터라 sysdate안넣고 시간정해서 넣었습니다.
+INSERT INTO USR_INF (
+    USR_ID, USR_LGN_ID, USR_PWD, USR_LNM, USR_FNM, USR_GNDR, USR_EML, 
+    USR_PHN, USR_BD, USR_ADDRS, USR_IS_GD, USR_JN_DT, USR_IS_CL
+) VALUES (
+    SEQ_USR_PK.NEXTVAL, 'user1', 'password1', 'Kim', 'Minjun', 'MALE', 'user1@example.com', 
+    '010-1234-5678', TO_DATE('1990-01-01', 'YYYY-MM-DD'), 'Seoul, Korea', 'N', 
+    TO_DATE('2023-10-01', 'YYYY-MM-DD'), 'N'
+);
+
+INSERT INTO USR_INF (
+    USR_ID, USR_LGN_ID, USR_PWD, USR_LNM, USR_FNM, USR_GNDR, USR_EML, 
+    USR_PHN, USR_BD, USR_ADDRS, USR_IS_GD, USR_JN_DT, USR_IS_CL
+) VALUES (
+    SEQ_USR_PK.NEXTVAL, 'user2', 'password2', 'Lee', 'Jisoo', 'FEMALE', 'user2@example.com', 
+    '010-2345-6789', TO_DATE('1992-02-15', 'YYYY-MM-DD'), 'Busan, Korea', 'N', 
+    TO_DATE('2023-10-02', 'YYYY-MM-DD'), 'N'
+);
+INSERT INTO USR_INF (
+    USR_ID, USR_LGN_ID, USR_PWD, USR_LNM, USR_FNM, USR_GNDR, USR_EML, 
+    USR_PHN, USR_BD, USR_ADDRS, USR_IS_GD, USR_JN_DT, USR_IS_CL
+) VALUES (
+    SEQ_USR_PK.NEXTVAL, 'user3', 'password3', 'Jeong', 'Soojin', 'FEMALE', 'user3@example.com', 
+    '010-3456-7890', TO_DATE('1993-05-20', 'YYYY-MM-DD'), 'Gwangju, Korea', 'N', 
+    TO_DATE('2023-10-05', 'YYYY-MM-DD'), 'N'
+);
+INSERT INTO USR_INF (
+    USR_ID, USR_LGN_ID, USR_PWD, USR_LNM, USR_FNM, USR_GNDR, USR_EML, 
+    USR_PHN, USR_BD, USR_ADDRS, USR_IS_GD, USR_JN_DT, USR_IS_CL
+) VALUES (
+    SEQ_USR_PK.NEXTVAL, 'user4', 'password4', 'Yoon', 'Daehyun', 'MALE', 'user4@example.com', 
+    '010-4567-8901', TO_DATE('1989-11-30', 'YYYY-MM-DD'), 'Ulsan, Korea', 'N', 
+    TO_DATE('2023-10-06', 'YYYY-MM-DD'), 'N'
+);
+INSERT INTO USR_INF (
+    USR_ID, USR_LGN_ID, USR_PWD, USR_LNM, USR_FNM, USR_GNDR, USR_EML, 
+    USR_PHN, USR_BD, USR_ADDRS, USR_IS_GD, USR_JN_DT, USR_IS_CL
+) VALUES (
+    SEQ_USR_PK.NEXTVAL, 'user5', 'password5', 'Hong', 'Sangwoo', 'MALE', 'user5@example.com', 
+    '010-5678-9012', TO_DATE('1995-02-12', 'YYYY-MM-DD'), 'Suwon, Korea', 'N', 
+    TO_DATE('2023-10-07', 'YYYY-MM-DD'), 'N'
+);
+INSERT INTO USR_INF (
+    USR_ID, USR_LGN_ID, USR_PWD, USR_LNM, USR_FNM, USR_GNDR, USR_EML, 
+    USR_PHN, USR_BD, USR_ADDRS, USR_IS_GD, USR_JN_DT, USR_IS_CL
+) VALUES (
+    SEQ_USR_PK.NEXTVAL, 'user6', 'password6', 'Seo', 'Yuna', 'FEMALE', 'user6@example.com', 
+    '010-6789-0123', TO_DATE('1994-09-08', 'YYYY-MM-DD'), 'Jeju, Korea', 'N', 
+    TO_DATE('2023-10-08', 'YYYY-MM-DD'), 'N'
+);
+
+INSERT INTO USR_INF (
+    USR_ID, USR_LGN_ID, USR_PWD, USR_LNM, USR_FNM, USR_GNDR, USR_EML, 
+    USR_PHN, USR_BD, USR_ADDRS, USR_IS_GD, USR_JN_DT, USR_IS_CL, USR_SLF_INTDCTN, USR_AVG_RTNG, GD_PRFL_IMG
+) VALUES (
+    SEQ_USR_PK.NEXTVAL, 'guide1', 'password1', 'Choi', 'Seungwon', 'MALE', 'guide1@example.com', 
+    '010-9876-5432', TO_DATE('1985-03-10', 'YYYY-MM-DD'), 'Incheon, Korea', 'Y', 
+    TO_DATE('2023-10-03', 'YYYY-MM-DD'), 'N', 'Experienced guide in Korea', 4.5, 'http://example.com/guide1.jpg'
+);
+INSERT INTO USR_INF (
+    USR_ID, USR_LGN_ID, USR_PWD, USR_LNM, USR_FNM, USR_GNDR, USR_EML, 
+    USR_PHN, USR_BD, USR_ADDRS, USR_IS_GD, USR_JN_DT, USR_IS_CL, USR_SLF_INTDCTN, USR_AVG_RTNG, GD_PRFL_IMG
+) VALUES (
+    SEQ_USR_PK.NEXTVAL, 'guide2', 'password2', 'Park', 'Jiwon', 'FEMALE', 'guide2@example.com', 
+    '010-8765-4321', TO_DATE('1988-07-25', 'YYYY-MM-DD'), 'Daegu, Korea', 'Y', 
+    TO_DATE('2023-10-04', 'YYYY-MM-DD'), 'N', 'Specialist in hiking tours', 4.8, 'http://example.com/guide2.jpg'
+);
+
+INSERT INTO USR_INF (
+    USR_ID, USR_LGN_ID, USR_PWD, USR_LNM, USR_FNM, USR_GNDR, USR_EML, 
+    USR_PHN, USR_BD, USR_ADDRS, USR_IS_GD, USR_JN_DT, USR_IS_CL, USR_SLF_INTDCTN, USR_AVG_RTNG, GD_PRFL_IMG
+) VALUES (
+    SEQ_USR_PK.NEXTVAL, 'guide3', 'password3', 'Lim', 'Sukjin', 'MALE', 'guide3@example.com', 
+    '010-1111-2222', TO_DATE('1987-12-01', 'YYYY-MM-DD'), 'Seongnam, Korea', 'Y', 
+    TO_DATE('2023-10-09', 'YYYY-MM-DD'), 'N', 'Cultural guide with 5 years of experience', 4.6, 'http://example.com/guide3.jpg'
+);
+INSERT INTO USR_INF (
+    USR_ID, USR_LGN_ID, USR_PWD, USR_LNM, USR_FNM, USR_GNDR, USR_EML, 
+    USR_PHN, USR_BD, USR_ADDRS, USR_IS_GD, USR_JN_DT, USR_IS_CL, USR_SLF_INTDCTN, USR_AVG_RTNG, GD_PRFL_IMG
+) VALUES (
+    SEQ_USR_PK.NEXTVAL, 'guide4', 'password4', 'Kang', 'Haejin', 'FEMALE', 'guide4@example.com', 
+    '010-2222-3333', TO_DATE('1991-06-15', 'YYYY-MM-DD'), 'Suwon, Korea', 'Y', 
+    TO_DATE('2023-10-10', 'YYYY-MM-DD'), 'N', 'Expert in historical tours', 4.7, 'http://example.com/guide4.jpg'
+);
+INSERT INTO USR_INF (
+    USR_ID, USR_LGN_ID, USR_PWD, USR_LNM, USR_FNM, USR_GNDR, USR_EML, 
+    USR_PHN, USR_BD, USR_ADDRS, USR_IS_GD, USR_JN_DT, USR_IS_CL, USR_SLF_INTDCTN, USR_AVG_RTNG, GD_PRFL_IMG
+) VALUES (
+    SEQ_USR_PK.NEXTVAL, 'guide5', 'password5', 'Oh', 'Minsuk', 'MALE', 'guide5@example.com', 
+    '010-3333-4444', TO_DATE('1990-04-20', 'YYYY-MM-DD'), 'Seoul, Korea', 'Y', 
+    TO_DATE('2023-10-11', 'YYYY-MM-DD'), 'N', 'Passionate about nature and wildlife', 4.9, 'http://example.com/guide5.jpg'
+);
+INSERT INTO USR_INF (
+    USR_ID, USR_LGN_ID, USR_PWD, USR_LNM, USR_FNM, USR_GNDR, USR_EML, 
+    USR_PHN, USR_BD, USR_ADDRS, USR_IS_GD, USR_JN_DT, USR_IS_CL, USR_SLF_INTDCTN, USR_AVG_RTNG, GD_PRFL_IMG
+) VALUES (
+    SEQ_USR_PK.NEXTVAL, 'guide6', 'password6', 'Yang', 'Seonwoo', 'MALE', 'guide6@example.com', 
+    '010-4444-5555', TO_DATE('1986-08-30', 'YYYY-MM-DD'), 'Incheon, Korea', 'Y', 
+    TO_DATE('2023-10-12', 'YYYY-MM-DD'), 'N', 'Guide for city tours and experiences', 4.3, 'http://example.com/guide6.jpg'
+);
+

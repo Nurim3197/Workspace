@@ -1,0 +1,10 @@
+package com.mate.alram.dao.impl;
+
+alram.dao.AlarmDao;Rep
+
+import org.mybatis.spring.support.SqlSessionDaoSupport;
+
+import com.mate.alram.dao.AlarmDao;y
+public class AlarmDaoImpl extends SqlSessionDaoSupport implements AlarmDao {
+}
+	

@@ -1,0 +1,38 @@
+2024-10-14 07:23:18.343 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final 
+2024-10-14 07:23:18.421 [restartedMain] INFO  com.mate.MateApplication - Starting MateApplication using Java 22.0.1 with PID 11456 (/Users/sinpyungho/IdeaProjects/Mate-Develop/mate_front/target/classes started by sinpyungho in /Users/sinpyungho/IdeaProjects/Mate-Develop/mate_front) 
+2024-10-14 07:23:18.423 [restartedMain] INFO  com.mate.MateApplication - No active profile set, falling back to 1 default profile: "default" 
+2024-10-14 07:23:18.535 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in /Users/sinpyungho/.m2/repository/com/oracle/database/jdbc/ojdbc11/21.9.0.0/ojdbc11-21.9.0.0.jar referenced one or more files that do not exist: file:/Users/sinpyungho/.m2/repository/com/oracle/database/jdbc/ojdbc11/21.9.0.0/oraclepki.jar 
+2024-10-14 07:23:18.536 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2024-10-14 07:23:18.536 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2024-10-14 07:23:20.053 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.mate]' package. Please check your configuration. 
+2024-10-14 07:23:21.340 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http) 
+2024-10-14 07:23:21.379 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2024-10-14 07:23:21.395 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2024-10-14 07:23:21.396 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30] 
+2024-10-14 07:23:21.951 [restartedMain] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2024-10-14 07:23:21.966 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2024-10-14 07:23:21.969 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3430 ms 
+2024-10-14 07:23:22.628 [restartedMain] WARN  o.s.aop.framework.CglibAopProxy - Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final, consider using interface-based JDK proxies instead. 
+2024-10-14 07:23:23.507 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server 
+2024-10-14 07:23:23.566 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2024-10-14 07:23:23.622 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/' 
+2024-10-14 07:23:23.641 [restartedMain] INFO  com.mate.MateApplication - Started MateApplication in 6.248 seconds (process running for 8.696) 
+2024-10-14 07:23:36.440 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2024-10-14 07:23:36.442 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2024-10-14 07:23:36.445 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms 
+2024-10-14 07:23:38.276 [http-nio-8080-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /mate/public/alarmOnButton.png 
+2024-10-14 07:23:38.277 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /mate/public/Logo.png 
+2024-10-14 07:23:38.295 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /mate/public/Logo.png. 
+2024-10-14 07:23:38.295 [http-nio-8080-exec-3] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /mate/public/alarmOnButton.png. 
+2024-10-14 07:23:38.546 [http-nio-8080-exec-7] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ma/image/tourlist/%EB%B2%A0%EB%8B%88%EC%8A%A4.jpg
+2024-10-14 07:23:38.548 [http-nio-8080-exec-7] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /ma/image/tourlist/%EB%B2%A0%EB%8B%88%EC%8A%A4.jpg.
+2024-10-14 07:23:38.563 [http-nio-8080-exec-8] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /mate/public/chat.png 
+2024-10-14 07:23:38.563 [http-nio-8080-exec-6] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ma/image/tourlist/%EB%9D%BC%EC%8A%A4%EB%B2%A0%EA%B0%80%EC%8A%A4%20%EC%95%BC%EA%B2%BD.jpg
+2024-10-14 07:23:38.568 [http-nio-8080-exec-8] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /mate/public/chat.png. 
+2024-10-14 07:23:38.567 [http-nio-8080-exec-6] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /ma/image/tourlist/%EB%9D%BC%EC%8A%A4%EB%B2%A0%EA%B0%80%EC%8A%A4%20%EC%95%BC%EA%B2%BD.jpg.
+2024-10-14 07:23:38.577 [http-nio-8080-exec-9] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /mate/public/CountorLine@1x.png 
+2024-10-14 07:23:38.579 [http-nio-8080-exec-9] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /mate/public/CountorLine@1x.png. 
+2024-10-14 07:23:38.593 [http-nio-8080-exec-10] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ma/image/tourlist/%EB%B2%A0%ED%8A%B8%EB%82%A8%20%ED%80%B4%EB%85%BC%20%EB%8F%84%EC%8B%9C.jpg
+2024-10-14 07:23:38.596 [http-nio-8080-exec-7] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /ma/image/tourlist/%EC%82%BF%ED%8F%AC%EB%A1%9C%20%EC%98%A8%EC%B2%9C.jpg
+2024-10-14 07:23:38.597 [http-nio-8080-exec-10] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /ma/image/tourlist/%EB%B2%A0%ED%8A%B8%EB%82%A8%20%ED%80%B4%EB%85%BC%20%EB%8F%84%EC%8B%9C.jpg.
+2024-10-14 07:23:38.598 [http-nio-8080-exec-7] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /ma/image/tourlist/%EC%82%BF%ED%8F%AC%EB%A1%9C%20%EC%98%A8%EC%B2%9C.jpg.

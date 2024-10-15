@@ -1,0 +1,12 @@
+2024-10-14 07:29:33.156 [http-nio-8080-exec-7] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /mate/mypage/guide/public/alarmOnButton.png 
+2024-10-14 07:29:33.191 [http-nio-8080-exec-7] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /mate/mypage/guide/public/alarmOnButton.png. 
+2024-10-14 07:29:33.182 [http-nio-8080-exec-8] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /mate/mypage/guide/public/Logo.png 
+2024-10-14 07:29:33.218 [http-nio-8080-exec-8] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /mate/mypage/guide/public/Logo.png. 
+2024-10-14 07:29:33.270 [http-nio-8080-exec-7] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /mate/mypage/gui/image/wishlist/check.png
+2024-10-14 07:29:33.270 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /mate/mypage/guide/public/CountorLine@1x.png 
+2024-10-14 07:29:33.271 [http-nio-8080-exec-7] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /mate/mypage/gui/image/wishlist/check.png.
+2024-10-14 07:29:33.270 [http-nio-8080-exec-8] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /mate/mypage/guide/public/chat.png 
+2024-10-14 07:29:33.277 [http-nio-8080-exec-8] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /mate/mypage/guide/public/chat.png. 
+2024-10-14 07:29:33.278 [http-nio-8080-exec-4] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /mate/mypage/gui/image/wishlist/uncheck.png
+2024-10-14 07:29:33.279 [http-nio-8080-exec-4] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /mate/mypage/gui/image/wishlist/uncheck.png.
+2024-10-14 07:29:33.271 [http-nio-8080-exec-2] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /mate/mypage/guide/public/CountorLine@1x.png. 

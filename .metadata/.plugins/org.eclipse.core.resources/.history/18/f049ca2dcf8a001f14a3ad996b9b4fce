@@ -1,0 +1,10 @@
+package com.ktds.mate.alram.service.impl;
+
+import org.springframework.stereotype.Service;
+
+import com.ktds.mate.mate.alram.service.AlarmService;
+
+@Service
+public class AlarmServiceImpl implements AlarmService {
+
+}

@@ -1,0 +1,6 @@
+2024-10-14 07:05:01.993 [http-nio-8080-exec-1] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /mate/mypage/public/Logo.png 
+2024-10-14 07:05:02.531 [http-nio-8080-exec-8] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /mate/mypage/public/alarmOnButton.png 
+2024-10-14 07:05:02.901 [http-nio-8080-exec-5] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /mate/mypage/public/CountorLine@1x.png 
+2024-10-14 07:05:04.072 [http-nio-8080-exec-8] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /mate/mypage/public/alarmOnButton.png. 
+2024-10-14 07:05:04.072 [http-nio-8080-exec-5] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /mate/mypage/public/CountorLine@1x.png. 
+2024-10-14 07:05:04.111 [http-nio-8080-exec-1] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /mate/mypage/public/Logo.png. 

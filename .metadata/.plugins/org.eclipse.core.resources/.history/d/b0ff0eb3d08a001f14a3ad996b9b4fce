@@ -1,0 +1,55 @@
+INSERT INTO GD_DCMNT (
+    GD_LCN_ID, GD_ID, GD_LCN_NM, GD_LCN_IMG
+) VALUES (
+    SEQ_GD_DCMNT_PK.NEXTVAL, 7, 'Korean Tour Guide License', 'http://example.com/license1.jpg'
+);
+INSERT INTO GD_DCMNT (
+    GD_LCN_ID, GD_ID, GD_LCN_NM, GD_LCN_IMG
+) VALUES (
+    SEQ_GD_DCMNT_PK.NEXTVAL, '7', 'English Tour Guide License', 'http://example.com/license2.jpg'
+);
+
+-- 가이드 2
+INSERT INTO GD_DCMNT (
+    GD_LCN_ID, GD_ID, GD_LCN_NM, GD_LCN_IMG
+) VALUES (
+    SEQ_GD_DCMNT_PK.NEXTVAL, '8', 'Korean Tour Guide License', 'http://example.com/license3.jpg'
+);
+
+-- 가이드 3
+INSERT INTO GD_DCMNT (
+    GD_LCN_ID, GD_ID, GD_LCN_NM, GD_LCN_IMG
+) VALUES (
+    SEQ_GD_DCMNT_PK.NEXTVAL, '9', 'Cultural Heritage Guide License', 'http://example.com/license4.jpg'
+);
+INSERT INTO GD_DCMNT (
+    GD_LCN_ID, GD_ID, GD_LCN_NM, GD_LCN_IMG
+) VALUES (
+    SEQ_GD_DCMNT_PK.NEXTVAL, '9', 'Nature Tour Guide License', 'http://example.com/license5.jpg'
+);
+
+-- 가이드 4
+INSERT INTO GD_DCMNT (
+    GD_LCN_ID, GD_ID, GD_LCN_NM, GD_LCN_IMG
+) VALUES (
+    SEQ_GD_DCMNT_PK.NEXTVAL, '10', 'Historical Sites Guide License', 'http://example.com/license6.jpg'
+);
+
+-- 가이드 5
+INSERT INTO GD_DCMNT (
+    GD_LCN_ID, GD_ID, GD_LCN_NM, GD_LCN_IMG
+) VALUES (
+    SEQ_GD_DCMNT_PK.NEXTVAL, '11', 'City Guide License', 'http://example.com/license7.jpg'
+);
+INSERT INTO GD_DCMNT (
+    GD_LCN_ID, GD_ID, GD_LCN_NM, GD_LCN_IMG
+) VALUES (
+    SEQ_GD_DCMNT_PK.NEXTVAL, '11', 'Food Tour Guide License', 'http://example.com/license8.jpg'
+);
+
+-- 가이드 6
+INSERT INTO GD_DCMNT (
+    GD_LCN_ID, GD_ID, GD_LCN_NM, GD_LCN_IMG
+) VALUES (
+    SEQ_GD_DCMNT_PK.NEXTVAL, '12', 'Adventure Tour Guide License', 'http://example.com/license9.jpg'
+);
