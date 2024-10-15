@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class TestController {
 	
 	@GetMapping("mate")
-	public String viewMainPage(){return "all/main";}
+	public String viewMainPage(){return "all/MT_M001";}
 
 	@GetMapping("header")
 	public String viewHeader(){return "header";}
@@ -99,6 +99,12 @@ public class TestController {
 		return "all/Tourist_TourInsert";
 	}
 	
-	
-	
+	@GetMapping("mate/message/receive")
+	public String viewReceiveMessage(){return "all/receive_message";}
+
+	@GetMapping("mate/message/send")
+	public String viewSendMessage(){return "all/send_message";}
+
+	@GetMapping("mate/tour/list")
+	public String viewTourListPage(){return "all/tour_list";}
 }

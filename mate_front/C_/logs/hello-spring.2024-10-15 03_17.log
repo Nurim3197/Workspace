@@ -1,0 +1,19 @@
+2024-10-15 03:17:57.493 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final 
+2024-10-15 03:17:57.528 [restartedMain] INFO  com.mate.MateApplication - Starting MateApplication using Java 22.0.1 with PID 23876 (/Users/sinpyungho/IdeaProjects/mate_front/target/classes started by sinpyungho in /Users/sinpyungho/IdeaProjects/mate_front) 
+2024-10-15 03:17:57.529 [restartedMain] INFO  com.mate.MateApplication - No active profile set, falling back to 1 default profile: "default" 
+2024-10-15 03:17:57.576 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in /Users/sinpyungho/.m2/repository/com/oracle/database/jdbc/ojdbc11/21.9.0.0/ojdbc11-21.9.0.0.jar referenced one or more files that do not exist: file:/Users/sinpyungho/.m2/repository/com/oracle/database/jdbc/ojdbc11/21.9.0.0/oraclepki.jar 
+2024-10-15 03:17:57.577 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2024-10-15 03:17:57.577 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2024-10-15 03:17:58.165 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.mate]' package. Please check your configuration. 
+2024-10-15 03:17:58.532 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http) 
+2024-10-15 03:17:58.540 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2024-10-15 03:17:58.543 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2024-10-15 03:17:58.543 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30] 
+2024-10-15 03:17:58.696 [restartedMain] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2024-10-15 03:17:58.702 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2024-10-15 03:17:58.703 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1126 ms 
+2024-10-15 03:17:58.953 [restartedMain] WARN  o.s.aop.framework.CglibAopProxy - Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final, consider using interface-based JDK proxies instead. 
+2024-10-15 03:17:59.264 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-10-15 03:17:59.286 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2024-10-15 03:17:59.305 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/' 
+2024-10-15 03:17:59.313 [restartedMain] INFO  com.mate.MateApplication - Started MateApplication in 2.22 seconds (process running for 3.275) 

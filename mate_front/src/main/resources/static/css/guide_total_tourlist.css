@@ -18,7 +18,6 @@ div.grid {
     display: grid;
     grid-template-columns: 1fr 90rem 1fr;
     grid-template-rows: 9rem 1fr 9rem;
-    row-gap: 1rem;
 }
 
 div.header {

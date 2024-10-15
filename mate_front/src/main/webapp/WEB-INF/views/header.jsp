@@ -14,12 +14,12 @@
   <div class="header-right-menu">
     <div>
       <a href="">
-        <img class="alram-icon" src="/public/alarmOnButton.png" alt="알람버튼" />
+        <img class="message-icon" src="/public/chat.png" alt="채팅버튼" />
       </a>
     </div>
     <div>
       <a href="">
-        <img class="message-icon" src="/public/chat.png" alt="채팅버튼" />
+        <img class="alram-icon" src="/public/alarmOnButton.png" alt="알람버튼" />
       </a>
     </div>
     <div>

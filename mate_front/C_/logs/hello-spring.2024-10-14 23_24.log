@@ -1,0 +1,11 @@
+2024-10-14 23:24:01.196 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2024-10-14 23:24:01.201 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2024-10-14 23:24:01.204 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms 
+2024-10-14 23:24:02.300 [http-nio-8080-exec-5] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /image/tourlist/%EB%B2%A0%EB%8B%88%EC%8A%A4.jpg 
+2024-10-14 23:24:02.300 [http-nio-8080-exec-6] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /image/tourlist/%EB%9D%BC%EC%8A%A4%EB%B2%A0%EA%B0%80%EC%8A%A4%20%EC%95%BC%EA%B2%BD.jpg 
+2024-10-14 23:24:02.301 [http-nio-8080-exec-7] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /image/tourlist/%EB%B2%A0%ED%8A%B8%EB%82%A8%20%ED%80%B4%EB%85%BC%20%EB%8F%84%EC%8B%9C.jpg 
+2024-10-14 23:24:02.306 [http-nio-8080-exec-8] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /image/tourlist/%EC%82%BF%ED%8F%AC%EB%A1%9C%20%EC%98%A8%EC%B2%9C.jpg 
+2024-10-14 23:24:02.312 [http-nio-8080-exec-7] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /image/tourlist/%EB%B2%A0%ED%8A%B8%EB%82%A8%20%ED%80%B4%EB%85%BC%20%EB%8F%84%EC%8B%9C.jpg. 
+2024-10-14 23:24:02.312 [http-nio-8080-exec-5] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /image/tourlist/%EB%B2%A0%EB%8B%88%EC%8A%A4.jpg. 
+2024-10-14 23:24:02.313 [http-nio-8080-exec-6] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /image/tourlist/%EB%9D%BC%EC%8A%A4%EB%B2%A0%EA%B0%80%EC%8A%A4%20%EC%95%BC%EA%B2%BD.jpg. 
+2024-10-14 23:24:02.313 [http-nio-8080-exec-8] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /image/tourlist/%EC%82%BF%ED%8F%AC%EB%A1%9C%20%EC%98%A8%EC%B2%9C.jpg. 

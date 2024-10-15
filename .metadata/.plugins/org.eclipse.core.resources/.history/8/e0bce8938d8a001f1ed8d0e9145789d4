@@ -1,0 +1,9 @@
+package com.ktdsuniversity.edu.hello_spring.common.utils;
+
+public final class ErrorMapUtil {
+	
+	private ErrorMapUtil() {
+		
+	}
+
+}

@@ -1,0 +1,4 @@
+2024-10-15 05:16:19.416 [http-nio-8080-exec-9] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /favicon.ico 
+2024-10-15 05:16:19.420 [http-nio-8080-exec-9] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /favicon.ico. 
+2024-10-15 05:16:21.189 [http-nio-8080-exec-7] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /favicon.ico 
+2024-10-15 05:16:21.190 [http-nio-8080-exec-7] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /favicon.ico. 

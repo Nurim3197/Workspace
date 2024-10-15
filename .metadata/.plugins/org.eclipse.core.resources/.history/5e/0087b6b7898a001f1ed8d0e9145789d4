@@ -1,0 +1,121 @@
+package com.ktdsuniversity.edu.hello_spring.bbs.web;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.ObjectError;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.SessionAttribute;
+
+import com.ktdsuniversity.edu.hello_spring.bbs.service.ReplyService;
+import com.ktdsuniversity.edu.hello_spring.bbs.vo.ReplyListVO;
+import com.ktdsuniversity.edu.hello_spring.bbs.vo.WriteReplyVO;
+import com.ktdsuniversity.edu.hello_spring.member.vo.MemberVO;
+
+import jakarta.validation.Valid;
+
+@RestController
+public class ReplyController {
+	
+	private Logger logger = LoggerFactory.getLogger(ReplyController.class);
+	
+	@Autowired
+	private ReplyService replyService;
+	
+	@GetMapping("/board/reply/{boardId}")
+	public Map<String, Object> getAllReplies(@PathVariable int boardId){
+		ReplyListVO replyList = this.replyService.getAllReplies(boardId);
+		
+		Map<String, Object> resultMap = new HashMap<>();
+		resultMap.put("count", replyList.getReplyCnt());
+		resultMap.put("replies", replyList.getReplyList());
+		return resultMap;
+	}
+	
+	@PostMapping("/board/reply/{boardId}")
+	public Map<String, Object> doCreateNewReplies(@PathVariable int boardId,
+								 @Valid WriteReplyVO writeReplyVO,
+								BindingResult bindingResult,
+								@SessionAttribute("_LOGIN_USER_") MemberVO memberVO){
+		if(bindingResult.hasErrors()) {
+			// 실패한 오류들 모두 담긴다.
+			List<ObjectError> allErrors = bindingResult.getAllErrors();
+			allErrors.forEach(error -> {
+				String name = error.getObjectName();
+				String massege = error.getDefaultMessage();
+				
+				if(logger.isDebugEnabled()) {
+					logger.debug("Error {}: {}", name, message)
+				}
+				})
+			
+		}
+		
+		writeReplyVO.setBoardId(boardId);
+		writeReplyVO.setEmail(memberVO.getEmail());
+		boolean isSuccess = replyService.createNewReply(writeReplyVO);
+		Map<String, Object> resultMap = new HashMap<>();
+		resultMap.put("result", isSuccess);
+		return resultMap;
+	}
+	
+	@GetMapping("/board/reply/delete/{replyId}")
+	public Map<String, Object> doDeleteReplied(@PathVariable int replyId,
+								@SessionAttribute("_LOGIN_USER_") MemberVO memberVO){
+		boolean isSuccess = replyService.deleteOneReply(replyId, memberVO.getEmail());
+		
+		Map<String, Object> resultMap = new HashMap<>();
+		resultMap.put("result", isSuccess);
+		return resultMap;
+	}
+	
+	@PostMapping("/board/reply/modify/{replyId}")
+	public Map<String, Object> doModifyReplies(@PathVariable int replyId,
+								@ModelAttribute WriteReplyVO writeReplyVO,
+								@SessionAttribute("_LOGIN_USER_") MemberVO memberVO){
+		
+		writeReplyVO.setReplyId(replyId);
+		writeReplyVO.setEmail(memberVO.getEmail());
+		boolean isSuccess = replyService.modifyOneReply(writeReplyVO);
+		
+		Map<String, Object> resultMap = new HashMap<>();
+		resultMap.put("result", isSuccess);
+		return resultMap;
+	}
+	
+	@GetMapping("/board/reply/recommend/{replyId}")
+	public Map<String, Object> doRecommendReplies(@PathVariable int replyId,
+							@SessionAttribute("_LOGIN_USER_") MemberVO memberVO){
+		boolean isSuccess = replyService.recommendOneReply(replyId, memberVO.getEmail());
+		
+		Map<String, Object> resultMap = new HashMap<>();
+		resultMap.put("result", isSuccess);
+		return resultMap;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

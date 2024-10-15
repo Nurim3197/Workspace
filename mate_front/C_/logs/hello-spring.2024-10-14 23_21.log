@@ -1,0 +1,68 @@
+2024-10-14 23:21:07.727 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final 
+2024-10-14 23:21:07.769 [restartedMain] INFO  com.mate.MateApplication - Starting MateApplication using Java 22.0.1 with PID 3221 (/Users/sinpyungho/IdeaProjects/mate_front/target/classes started by sinpyungho in /Users/sinpyungho/IdeaProjects/mate_front) 
+2024-10-14 23:21:07.771 [restartedMain] INFO  com.mate.MateApplication - No active profile set, falling back to 1 default profile: "default" 
+2024-10-14 23:21:07.823 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in /Users/sinpyungho/.m2/repository/com/oracle/database/jdbc/ojdbc11/21.9.0.0/ojdbc11-21.9.0.0.jar referenced one or more files that do not exist: file:/Users/sinpyungho/.m2/repository/com/oracle/database/jdbc/ojdbc11/21.9.0.0/oraclepki.jar 
+2024-10-14 23:21:07.823 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2024-10-14 23:21:07.823 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2024-10-14 23:21:08.549 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.mate]' package. Please check your configuration. 
+2024-10-14 23:21:09.181 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http) 
+2024-10-14 23:21:09.193 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2024-10-14 23:21:09.196 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2024-10-14 23:21:09.197 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30] 
+2024-10-14 23:21:09.464 [restartedMain] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2024-10-14 23:21:09.471 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2024-10-14 23:21:09.471 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1647 ms 
+2024-10-14 23:21:09.825 [restartedMain] WARN  o.s.aop.framework.CglibAopProxy - Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final, consider using interface-based JDK proxies instead. 
+2024-10-14 23:21:10.416 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-10-14 23:21:10.448 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2024-10-14 23:21:10.478 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/' 
+2024-10-14 23:21:10.486 [restartedMain] INFO  com.mate.MateApplication - Started MateApplication in 3.577 seconds (process running for 5.193) 
+2024-10-14 23:21:19.994 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 84 class path changes (0 additions, 9 deletions, 75 modifications) 
+2024-10-14 23:21:20.000 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"] 
+2024-10-14 23:21:20.111 [restartedMain] INFO  com.mate.MateApplication - Starting MateApplication using Java 22.0.1 with PID 3221 (/Users/sinpyungho/IdeaProjects/mate_front/target/classes started by sinpyungho in /Users/sinpyungho/IdeaProjects/mate_front) 
+2024-10-14 23:21:20.111 [restartedMain] INFO  com.mate.MateApplication - No active profile set, falling back to 1 default profile: "default" 
+2024-10-14 23:21:20.424 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.mate]' package. Please check your configuration. 
+2024-10-14 23:21:20.513 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http) 
+2024-10-14 23:21:20.515 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2024-10-14 23:21:20.516 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2024-10-14 23:21:20.516 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30] 
+2024-10-14 23:21:20.664 [restartedMain] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2024-10-14 23:21:20.667 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2024-10-14 23:21:20.667 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 552 ms 
+2024-10-14 23:21:20.755 [restartedMain] WARN  o.s.aop.framework.CglibAopProxy - Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final, consider using interface-based JDK proxies instead. 
+2024-10-14 23:21:20.944 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-10-14 23:21:20.956 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2024-10-14 23:21:20.959 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/' 
+2024-10-14 23:21:20.964 [restartedMain] INFO  com.mate.MateApplication - Started MateApplication in 0.893 seconds (process running for 15.671) 
+2024-10-14 23:21:20.968 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-10-14 23:21:22.360 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 9 class path changes (9 additions, 0 deletions, 0 modifications) 
+2024-10-14 23:21:22.362 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"] 
+2024-10-14 23:21:22.460 [restartedMain] INFO  com.mate.MateApplication - Starting MateApplication using Java 22.0.1 with PID 3221 (/Users/sinpyungho/IdeaProjects/mate_front/target/classes started by sinpyungho in /Users/sinpyungho/IdeaProjects/mate_front) 
+2024-10-14 23:21:22.461 [restartedMain] INFO  com.mate.MateApplication - No active profile set, falling back to 1 default profile: "default" 
+2024-10-14 23:21:22.741 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.mate]' package. Please check your configuration. 
+2024-10-14 23:21:22.797 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http) 
+2024-10-14 23:21:22.797 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2024-10-14 23:21:22.798 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2024-10-14 23:21:22.798 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30] 
+2024-10-14 23:21:22.885 [restartedMain] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2024-10-14 23:21:22.887 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2024-10-14 23:21:22.887 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 424 ms 
+2024-10-14 23:21:22.917 [restartedMain] WARN  o.s.aop.framework.CglibAopProxy - Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final, consider using interface-based JDK proxies instead. 
+2024-10-14 23:21:23.062 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-10-14 23:21:23.074 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2024-10-14 23:21:23.078 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/' 
+2024-10-14 23:21:23.081 [restartedMain] INFO  com.mate.MateApplication - Started MateApplication in 0.649 seconds (process running for 17.788) 
+2024-10-14 23:21:23.082 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-10-14 23:21:30.958 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2024-10-14 23:21:30.958 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2024-10-14 23:21:30.959 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms 
+2024-10-14 23:21:31.896 [http-nio-8080-exec-7] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /image/tourlist/%EB%B2%A0%ED%8A%B8%EB%82%A8%20%ED%80%B4%EB%85%BC%20%EB%8F%84%EC%8B%9C.jpg 
+2024-10-14 23:21:31.896 [http-nio-8080-exec-5] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /image/tourlist/%EB%B2%A0%EB%8B%88%EC%8A%A4.jpg 
+2024-10-14 23:21:31.897 [http-nio-8080-exec-6] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /image/tourlist/%EB%9D%BC%EC%8A%A4%EB%B2%A0%EA%B0%80%EC%8A%A4%20%EC%95%BC%EA%B2%BD.jpg 
+2024-10-14 23:21:31.906 [http-nio-8080-exec-5] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /image/tourlist/%EB%B2%A0%EB%8B%88%EC%8A%A4.jpg. 
+2024-10-14 23:21:31.907 [http-nio-8080-exec-7] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /image/tourlist/%EB%B2%A0%ED%8A%B8%EB%82%A8%20%ED%80%B4%EB%85%BC%20%EB%8F%84%EC%8B%9C.jpg. 
+2024-10-14 23:21:31.906 [http-nio-8080-exec-6] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /image/tourlist/%EB%9D%BC%EC%8A%A4%EB%B2%A0%EA%B0%80%EC%8A%A4%20%EC%95%BC%EA%B2%BD.jpg. 
+2024-10-14 23:21:31.926 [http-nio-8080-exec-8] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /image/tourlist/%EC%82%BF%ED%8F%AC%EB%A1%9C%20%EC%98%A8%EC%B2%9C.jpg 
+2024-10-14 23:21:31.926 [http-nio-8080-exec-8] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /image/tourlist/%EC%82%BF%ED%8F%AC%EB%A1%9C%20%EC%98%A8%EC%B2%9C.jpg. 
+2024-10-14 23:21:32.023 [http-nio-8080-exec-10] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /favicon.ico 
+2024-10-14 23:21:32.025 [http-nio-8080-exec-10] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /favicon.ico. 

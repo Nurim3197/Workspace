@@ -1,0 +1,15 @@
+package com.ktdsuniversity.edu.hello_spring.common.utils;
+
+import java.util.List;
+import java.util.Map;
+
+public final class ErrorMapUtil {
+	
+	private Map<String, List<String>> errorMap;
+	
+	private ErrorMapUtil() {
+		this.errorMap
+		
+	}
+
+}

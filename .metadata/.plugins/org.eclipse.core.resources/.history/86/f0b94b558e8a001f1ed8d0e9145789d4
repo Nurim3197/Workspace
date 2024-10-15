@@ -1,0 +1,31 @@
+package com.ktdsuniversity.edu.hello_spring.common.utils;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public final class ErrorMapUtil {
+	
+	private Map<String, List<String>> errorMap;
+	
+	public void addError(String fieldName, String errorMessage) {
+		if (errorMap == null) {
+			this.errorMap = new HashMap<>();
+			
+		}
+		
+		// 에러명이 맵에 존재안함?
+		if(!this.errorMap.containsKey(fieldName)) {
+			this.errorMap.put(fieldName, new ArrayList<>());
+		}
+	}
+	
+	public Map<String, List<String>> getErrorMap(){
+		return this.errorMap;
+	}
+	
+	
+	
+
+}

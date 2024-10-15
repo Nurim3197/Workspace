@@ -1,0 +1,17 @@
+package com.ktdsuniversity.edu.hello_spring.bbs.vo;
+
+import jakarta.validation.constraints.NotBlank;
+
+public class ModifyReplyVO {
+
+	
+	private int replyId;
+	
+	private int boardId;
+	
+	private String email;
+	
+	@NotBlank(message = "왜 입력안함?")
+	private String content;
+	private int parentReplyId;
+}

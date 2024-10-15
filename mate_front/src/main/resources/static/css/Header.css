@@ -2,7 +2,7 @@ div.header-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 90rem;
+  width: auto;
   height: 9rem;
   border-bottom: 1px solid #000;
 }

@@ -1,0 +1,30 @@
+2024-10-15 02:32:42.809 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final 
+2024-10-15 02:32:42.843 [restartedMain] INFO  com.mate.MateApplication - Starting MateApplication using Java 22.0.1 with PID 17584 (/Users/sinpyungho/IdeaProjects/mate_front/target/classes started by sinpyungho in /Users/sinpyungho/IdeaProjects/mate_front) 
+2024-10-15 02:32:42.844 [restartedMain] INFO  com.mate.MateApplication - No active profile set, falling back to 1 default profile: "default" 
+2024-10-15 02:32:42.887 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in /Users/sinpyungho/.m2/repository/com/oracle/database/jdbc/ojdbc11/21.9.0.0/ojdbc11-21.9.0.0.jar referenced one or more files that do not exist: file:/Users/sinpyungho/.m2/repository/com/oracle/database/jdbc/ojdbc11/21.9.0.0/oraclepki.jar 
+2024-10-15 02:32:42.887 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2024-10-15 02:32:42.887 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2024-10-15 02:32:43.490 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.mate]' package. Please check your configuration. 
+2024-10-15 02:32:43.865 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http) 
+2024-10-15 02:32:43.873 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2024-10-15 02:32:43.876 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+2024-10-15 02:32:43.876 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30] 
+2024-10-15 02:32:44.024 [restartedMain] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2024-10-15 02:32:44.030 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2024-10-15 02:32:44.031 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1143 ms 
+2024-10-15 02:32:44.315 [restartedMain] WARN  o.s.aop.framework.CglibAopProxy - Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final, consider using interface-based JDK proxies instead. 
+2024-10-15 02:32:44.622 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-10-15 02:32:44.644 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2024-10-15 02:32:44.663 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/' 
+2024-10-15 02:32:44.670 [restartedMain] INFO  com.mate.MateApplication - Started MateApplication in 2.373 seconds (process running for 3.698) 
+2024-10-15 02:32:46.871 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2024-10-15 02:32:46.872 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2024-10-15 02:32:46.876 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms 
+2024-10-15 02:32:47.707 [http-nio-8080-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /style.css 
+2024-10-15 02:32:47.716 [http-nio-8080-exec-3] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /style.css. 
+2024-10-15 02:32:47.807 [http-nio-8080-exec-4] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /your-image-path/message-icon.png 
+2024-10-15 02:32:47.808 [http-nio-8080-exec-4] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /your-image-path/message-icon.png. 
+2024-10-15 02:32:47.809 [http-nio-8080-exec-6] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /your-image-path/alarm-icon.png 
+2024-10-15 02:32:47.809 [http-nio-8080-exec-5] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /your-logo-path/logo.png 
+2024-10-15 02:32:47.810 [http-nio-8080-exec-6] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /your-image-path/alarm-icon.png. 
+2024-10-15 02:32:47.810 [http-nio-8080-exec-5] WARN  o.s.web.servlet.PageNotFound - No endpoint GET /your-logo-path/logo.png. 
